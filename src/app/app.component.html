@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+        <a routerLink="choose-quiz" class="nav-link" routerLinkActive="active">Home</a>
+    </li>
+    <li class="nav-item">
+        <a href="https://github.com/vademirfvj" class="nav-link" target="_blank" routerLinkActive="active">Git Repositories</a>
+    </li>
+  </ul>
+</nav>
+<div class="container">
+  <br>
+  <h2 style="text-align: center;">{{title}}</h2>
+  <hr>  
+  <div class="card">
+    <div class="card-body">
+  <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <!--<div class="footer-custon">
+      <span>Created by: Valdemir Ferreira. 2020</span>
+  </div>-->
+</footer>

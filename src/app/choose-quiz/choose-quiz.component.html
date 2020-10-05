@@ -1,0 +1,34 @@
+  <div class="col-sm-6 col-md-12">
+  	<div class="card card-accent-primary">
+  		<div class="card-header">
+  			AWS Certificate
+  		</div>
+  		<div class="card-body">
+  			Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+  		</div>
+
+  		<div class="card-body">
+  			<label class="col-md-3 col-form-label" for="inline-radios">Selecionar modo: </label>
+  			<div class="col-md-9 col-form-label">
+  				<div class="form-check form-check-inline mr-1" id="inline-radios">
+  					<input class="form-check-input" type="radio" name="inline-radios" id="inlineRadio1" value="option1" (change)="changeTipo(1)" checked="true">
+  					<label class="form-check-label" for="inlineRadio1">Aprendizado</label>
+  				</div>
+  				<div class="form-check form-check-inline mr-1">
+  					<input class="form-check-input" type="radio" name="inline-radios" id="inlineRadio2" value="option2" (change)="changeTipo(2)">
+  					<label class="form-check-label" for="inlineRadio2">Exame com tempo</label>
+  				</div>
+  				<div class="form-check form-check-inline mr-1">
+  					<input class="form-check-input" type="radio" name="inline-radios" id="inlineRadio2" value="option2" (change)="changeTipo(3)">
+  					<label class="form-check-label" for="inlineRadio2">Exame sem tempo</label>
+  				</div>
+  				
+  			</div>
+  		</div>
+  		<div class="card-body">
+  			<button (click)="submitQuiz()" class="btn btn-sm btn-primary">Iniciar</button>
+  		</div>
+  	</div><!--/.col-->
+
+
+  </div>

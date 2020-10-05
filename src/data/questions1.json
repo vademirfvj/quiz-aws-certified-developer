@@ -1,0 +1,377 @@
+{
+    "id": 1,
+    "name": "Quiz - AWS Certificate",
+    "description": "Quiz 1",
+    "questions": [
+        {
+            "id": 1010,
+            "name": "A user has attached one RDS security group with 5 RDS instances. The user has changed the ingress rule for the security group. What will be the initial status of the ingress rule?",
+            "questionTypeId": 1,
+            "answer": "When the user makes any changes to the RDS security group the rule status will be authorizing for some time until the changes are applied to all instances that the group is connected with. Once the changes are propagated the rule status will change to authorized.",
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Approving",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Implementing",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Authorizing",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "It is not possible to assign a single group to multiple DB instances",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1011,
+            "name": "The release process workflow of an application requires a manual approval before the code is deployed into the production environment. What is the BEST way to achieve this using AWS CodePipeline?",
+            "questionTypeId": 1,
+            "answer": "",
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Use multiple pipelines to allow approval",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Use an approval action in a stage",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Disable the stage transition to allow manual approval",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Disable a stage just prior the deployment stage",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1012,
+            "name": "What is the difference between let and var?",
+            "questionTypeId": 1,
+            "answer": "",
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "let has local scope",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Both are same",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "var is new data type",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "let consumes more cpu and ram",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1013,
+            "name": "What is TypeScript?",
+            "questionTypeId": 1,
+            "answer": "",
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "A Language based on Javascript",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "script that runs on browser",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "A DataType Collection of Javascript",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "None of the above",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1014,
+            "name": "Which of the following is right syntex for arrow function?",
+            "questionTypeId": 1,
+            "answer": "",
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "a -> { return b; }",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "x <= x + y;",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "x <- x + 5;",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "x => x + 5;",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1015,
+            "name": "Which new ES6 syntax helps with formatting output text - mixing variables with string literals, for example.",
+            "questionTypeId": 1,
+            "answer": "",
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Generator Functions",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Arrow Functions",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Template Strings",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Set Data Structure",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1016,
+            "name": "Which ES6 feature helps in merging of a number of changed properties into an existing object?",
+            "questionTypeId": 1,
+            "answer": "",
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Class syntex",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Object.assign()",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "map data structure",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Array.includes(obj);",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1017,
+            "name": "What is the difference between == and === ?",
+            "questionTypeId": 1,
+            "answer": "",
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "=== throws syntex error",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "== checks values only, === checks types as well",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "=== is reference type check only",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Both are same",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1018,
+            "name": "Which of the following is NOT the method of an Array?",
+            "questionTypeId": 1,
+            "answer": "",
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": ".map()",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": ".includes()",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": ".subscribe()",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": ".flatMap()",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1019,
+            "name": "What will be the output of the following code: ['a', 'b', 'c'].fill(7, 1, 2);?",
+            "questionTypeId": 1,
+            "answer": "",
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "['a', 7, 'c']",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "['a', 7, 7, 'b', 'c']",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "['a', 'b', 'c']",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "['7', 7, 'c']",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        }
+    ]
+}
