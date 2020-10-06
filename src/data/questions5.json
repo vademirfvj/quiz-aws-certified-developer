@@ -1,0 +1,2110 @@
+{
+   "id": 1,
+   "name": "Quiz - AWS Certificate",
+   "description": "Quiz 5",
+   "questions": [
+      {
+         "id": 2001,
+         "name": "NO.261 Company C is currently hosting their corporate site in an Amazon S3 bucket with StaticWebsite Hosting enabled. Currently, when visitors go to http://www.companyc.com the index.htmlpage is returned. Company C now would like a new page welcome.html to be returned when a visitorenters http://www.companyc.com in the browser.Which of the following steps will allow Company C to meet this requirement? Choose 2 answers",
+         "questionTypeId": 2,
+         "answer": "",
+         "options": [
+            {
+               "id": 1000,
+               "questionId": 2001,
+               "name": "A. Upload an html page named welcome.html to their S3 bucket",
+               "isAnswer": true
+            },
+            {
+               "id": 1001,
+               "questionId": 2001,
+               "name": "B. Create a welcome subfolder in their S3 bucket",
+               "isAnswer": false
+            },
+            {
+               "id": 1002,
+               "questionId": 2001,
+               "name": "C. Set the Index Document property to welcome.html",
+               "isAnswer": true
+            },
+            {
+               "id": 1003,
+               "questionId": 2001,
+               "name": "D. Move the index.html page to a welcome subfolder",
+               "isAnswer": false
+            },
+            {
+               "id": 1004,
+               "questionId": 2001,
+               "name": "E. Set the Error Document property to welcome.html",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2002,
+         "name": "NO.262 An application is being developed to audit several AWS accounts. The application will run inAccount A and must access AWS services in Accounts B and C.What is the MOST secure way to allow the application to call AWS services in each audited account?",
+         "questionTypeId": 1,
+         "answer": "",
+         "options": [
+            {
+               "id": 1005,
+               "questionId": 2002,
+               "name": "A. Configure cross-account roles in each audited account. Write code in Account A that assumesthose roles",
+               "isAnswer": false
+            },
+            {
+               "id": 1006,
+               "questionId": 2002,
+               "name": "B. Use S3 cross-region replication to communicate among accounts, with Amazon S3 eventnotifications to trigger Lambda functions",
+               "isAnswer": false
+            },
+            {
+               "id": 1007,
+               "questionId": 2002,
+               "name": "C. Deploy an application in each audited account with its own role. Have Account A authenticate withthe application",
+               "isAnswer": false
+            },
+            {
+               "id": 1008,
+               "questionId": 2002,
+               "name": "D. Create an IAM user with an access key in each audited account. Write code in Account A that usesthose access keys",
+               "isAnswer": true
+            }
+         ]
+      },
+      {
+         "id": 2003,
+         "name": "NO.263 A Development team would like to migrate their existing application code from a GitHubrepository to AWS CodeCommit.What needs to be created before they can migrate a cloned repository to CodeCommit over HTTPS?",
+         "questionTypeId": 1,
+         "answer": "",
+         "options": [
+            {
+               "id": 1009,
+               "questionId": 2003,
+               "name": "A. A GitHub secure authentication token",
+               "isAnswer": false
+            },
+            {
+               "id": 1010,
+               "questionId": 2003,
+               "name": "B. A public and private SSH key file",
+               "isAnswer": false
+            },
+            {
+               "id": 1011,
+               "questionId": 2003,
+               "name": "C. A set of Git credentials generated from IAM",
+               "isAnswer": true
+            },
+            {
+               "id": 1012,
+               "questionId": 2003,
+               "name": "D. An Amazon EC2 IAM role with CodeCommit permissions",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2004,
+         "name": "NO.264 You are responsible for a legacy web application whose server environment is approachingend of life. You would like to migrate this application to AWS as quickly as possible, since theapplication environment currently has the following limitations: The VM's single 10GB VMDK isalmost full. The virtual network interface still uses the 10Mbps driver, which leaves your 100MbpsWAN connection completely underutilized. It is currently running on a highly customized WindowsVM within a VMware environment: You do not have the installation media. This is a mission criticalapplication with an RTO (Recovery Time Objective) of 8 hours. RPO (Recovery Point Objective) of 1hour. How could you best migrate this application to AWS while meeting your business continuityrequirements?",
+         "questionTypeId": 1,
+         "answer": "",
+         "options": [
+            {
+               "id": 1013,
+               "questionId": 2004,
+               "name": "A. Use the EC2 VM Import Connector for vCenter to import the VM into EC2",
+               "isAnswer": true
+            },
+            {
+               "id": 1014,
+               "questionId": 2004,
+               "name": "B. Use Import/Export to import the VM as an EBS snapshot and attach to EC2.",
+               "isAnswer": false
+            },
+            {
+               "id": 1015,
+               "questionId": 2004,
+               "name": "C. Use S3 to create a backup of the VM and restore the data into EC2.",
+               "isAnswer": false
+            },
+            {
+               "id": 1016,
+               "questionId": 2004,
+               "name": "D. Use the ec2-bundle-instance API to Import an Image of the VM into EC2",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2005,
+         "name": "NO.265 A user is creating multiple IAM users. What advice should be given to him to enhance thesecurity?",
+         "questionTypeId": 1,
+         "answer": "Explanation:It is a recommended rule that the root user should grant the least privileges to the IAM user or thegroup. The higher the privileges, the more problems it can create.http://docs.aws.amazon.com/IAM/latest/UserGuide/IAMBestPractices.html",
+         "options": [
+            {
+               "id": 1017,
+               "questionId": 2005,
+               "name": "A. Grant least privileges to the individual user",
+               "isAnswer": true
+            },
+            {
+               "id": 1018,
+               "questionId": 2005,
+               "name": "B. Grant all higher privileges to the group",
+               "isAnswer": false
+            },
+            {
+               "id": 1019,
+               "questionId": 2005,
+               "name": "C. Grant less privileges for user, but higher privileges for the group",
+               "isAnswer": false
+            },
+            {
+               "id": 1020,
+               "questionId": 2005,
+               "name": "D. Grant more privileges to the user, but least privileges to the group",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2006,
+         "name": "NO.266 A Developer needs to design an application running on AWS that will be used to consumeAmazon SQS messages that range from 1 KB up to 1GB in size.How should the Amazon SQS messages be managed?",
+         "questionTypeId": 1,
+         "answer": "",
+         "options": [
+            {
+               "id": 1021,
+               "questionId": 2006,
+               "name": "A. Use Amazon S3 and the Amazon SQS CLI.",
+               "isAnswer": false
+            },
+            {
+               "id": 1022,
+               "questionId": 2006,
+               "name": "B. Use Amazon S3 and the Amazon SQS Extended Client Library for Java.",
+               "isAnswer": true
+            },
+            {
+               "id": 1023,
+               "questionId": 2006,
+               "name": "C. Use Amazon EBS and the Amazon SQS CLI.",
+               "isAnswer": false
+            },
+            {
+               "id": 1024,
+               "questionId": 2006,
+               "name": "D. Use Amazon EFS and the Amazon SQS CLI.",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2007,
+         "name": "NO.267 A user has setup an RDS DB with Oracle. The user wants to get notifications when someonemodifies the security group of that DB. How can the user configure that?",
+         "questionTypeId": 1,
+         "answer": "",
+         "options": [
+            {
+               "id": 1025,
+               "questionId": 2007,
+               "name": "A. It is not possible to get the notifications on a change in the security group",
+               "isAnswer": false
+            },
+            {
+               "id": 1026,
+               "questionId": 2007,
+               "name": "B. Configure SNS to monitor security group changes",
+               "isAnswer": false
+            },
+            {
+               "id": 1027,
+               "questionId": 2007,
+               "name": "C. Configure event notification on the DB security group",
+               "isAnswer": true
+            },
+            {
+               "id": 1028,
+               "questionId": 2007,
+               "name": "D. Configure the CloudWatch alarm on the DB for a change in the security group",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2008,
+         "name": "NO.268 A Developer created a new AWS account and must create a scalable AWS Lambda functionthat meets the following requirements for concurrent execution:- Average execution time of 100 seconds- 50 requests per secondWhich step must be taken prior to deployment to prevent errors?",
+         "questionTypeId": 1,
+         "answer": "",
+         "options": [
+            {
+               "id": 1029,
+               "questionId": 2008,
+               "name": "A. Implement dead-letter queues to capture invocation errors",
+               "isAnswer": false
+            },
+            {
+               "id": 1030,
+               "questionId": 2008,
+               "name": "B. Add an event source from Amazon API Gateway to the Lambda function",
+               "isAnswer": true
+            },
+            {
+               "id": 1031,
+               "questionId": 2008,
+               "name": "C. Implement error handling within the application code",
+               "isAnswer": false
+            },
+            {
+               "id": 1032,
+               "questionId": 2008,
+               "name": "D. Contact AWS Support to increase the concurrent execution limits",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2009,
+         "name": "NO.269 AWS Elastic Beanstalk will change the health status of a web server environment tier to graycolor when:",
+         "questionTypeId": 1,
+         "answer": "Explanation:AWS Elastic Beanstalk will change the health status of a web server environment tier to gray colorwhen your application's health status is unknown (because status is reported when the application isnot in the ready state).http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features.healthstatus.html",
+         "options": [
+            {
+               "id": 1033,
+               "questionId": 2009,
+               "name": "A. AWS Elastic Beanstalk detects other problems with the environment that are known to make theapplication unavailable",
+               "isAnswer": false
+            },
+            {
+               "id": 1034,
+               "questionId": 2009,
+               "name": "B. Your application hasn't responded to the application health check URL within the last one hour.",
+               "isAnswer": false
+            },
+            {
+               "id": 1035,
+               "questionId": 2009,
+               "name": "C. Your application hasn't responded to the application health check URL within the last five minutes.",
+               "isAnswer": false
+            },
+            {
+               "id": 1036,
+               "questionId": 2009,
+               "name": "D. Your application's health status is unknown because status is reported when the application is notin the ready state.",
+               "isAnswer": true
+            }
+         ]
+      },
+      {
+         "id": 2010,
+         "name": "NO.270 Which of the following are valid arguments for an SNS Publish request? Choose 3 answers",
+         "questionTypeId": 2,
+         "answer": "",
+         "options": [
+            {
+               "id": 1037,
+               "questionId": 2010,
+               "name": "A. TopicAm",
+               "isAnswer": true
+            },
+            {
+               "id": 1038,
+               "questionId": 2010,
+               "name": "B. Subject",
+               "isAnswer": true
+            },
+            {
+               "id": 1039,
+               "questionId": 2010,
+               "name": "C. Destination",
+               "isAnswer": false
+            },
+            {
+               "id": 1040,
+               "questionId": 2010,
+               "name": "D. Format",
+               "isAnswer": false
+            },
+            {
+               "id": 1041,
+               "questionId": 2010,
+               "name": "E. Message",
+               "isAnswer": true
+            },
+            {
+               "id": 1042,
+               "questionId": 2010,
+               "name": "F. Language",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2011,
+         "name": "NO.271 A corporate web application is deployed within an Amazon VPC, and is connected to thecorporate data center via IPSec VPN. The application must authenticate against the on-premise LDAPserver. Once authenticated, logged-in users can only access an S3 keyspace specific to the user.Which two approaches can satisfy the objectives? Choose 2 answers",
+         "questionTypeId": 2,
+         "answer": "",
+         "options": [
+            {
+               "id": 1043,
+               "questionId": 2011,
+               "name": "A. The application authenticates against LDAP. The application then calls the IAM Security Service tologin to IAM using the LDAP credentials. The application can use the IAM temporary credentials toaccess the appropriate S3 bucket.",
+               "isAnswer": false
+            },
+            {
+               "id": 1044,
+               "questionId": 2011,
+               "name": "B. The application authenticates against LDAP, and retrieves the name of an IAM role associated withthe user. The application then calls the IAM Security Token Service to assume that IAM Role. Theapplication can use the temporary credentials to access the appropriate S3 bucket.",
+               "isAnswer": true
+            },
+            {
+               "id": 1045,
+               "questionId": 2011,
+               "name": "C. The application authenticates against IAM Security Token Service using the LDAP credentials.The application uses those temporary AWS security credentials to access the appropriate S3 bucket.",
+               "isAnswer": false
+            },
+            {
+               "id": 1046,
+               "questionId": 2011,
+               "name": "D. Develop an identity broker which authenticates against LDAP, and then calls IAM Security TokenService to get IAM federated user credentials. The application calls the identity broker to get IAMfederated user credentials with access to the appropriate S3 bucket.",
+               "isAnswer": true
+            },
+            {
+               "id": 1047,
+               "questionId": 2011,
+               "name": "E. Develop an identity broker which authenticates against IAM Security Token Service to assume anIAM Role to get temporary AWS security credentials. The application calls the identity broker to getAWS temporary security credentials with access to the appropriate S3 bucket.",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2012,
+         "name": "NO.272 An application runs on multiple EC2 instances behind an ELB.Where is the session data best written so that it can be served reliably across multiple requests?",
+         "questionTypeId": 1,
+         "answer": "",
+         "options": [
+            {
+               "id": 1048,
+               "questionId": 2012,
+               "name": "A. Write data to Amazon ElastiCache",
+               "isAnswer": true
+            },
+            {
+               "id": 1049,
+               "questionId": 2012,
+               "name": "B. Write data to Amazon Elastic Block Store.",
+               "isAnswer": false
+            },
+            {
+               "id": 1050,
+               "questionId": 2012,
+               "name": "C. Write data to Amazon EC2 Instance Store.",
+               "isAnswer": false
+            },
+            {
+               "id": 1051,
+               "questionId": 2012,
+               "name": "D. Write data to the root filesystem.",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2013,
+         "name": "NO.273 Company A has an S3 bucket containing premier content that they intend to make availableto only paid subscribers of their website. The S3 bucket currently has default permissions of allobjects being private to prevent inadvertent exposure of the premier content to non-paying websitevisitors. How can Company A provide only paid subscribers the ability to download a premier contentfile in the S3 bucket?",
+         "questionTypeId": 1,
+         "answer": "",
+         "options": [
+            {
+               "id": 1052,
+               "questionId": 2013,
+               "name": "A. Apply a bucket policy that grants anonymous users to download the content from the S3 bucket",
+               "isAnswer": false
+            },
+            {
+               "id": 1053,
+               "questionId": 2013,
+               "name": "B. Generate a pre-signed object URL for the premier content file when a paid subscriberrequests adownload",
+               "isAnswer": true
+            },
+            {
+               "id": 1054,
+               "questionId": 2013,
+               "name": "C. Add a bucket policy that requires Multi-Factor Authentication for requests to access the S3 bucketobjects",
+               "isAnswer": false
+            },
+            {
+               "id": 1055,
+               "questionId": 2013,
+               "name": "D. Enable server side encryption on the S3 bucket for data protection against the non-paying websitevisitors",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2014,
+         "name": "NO.274 A user is launching an AWS RDS instance with MySQL. The user wants to enable the Multi AZfeature. Which of the below mentioned parameters will not be allowed to configure by RDS?",
+         "questionTypeId": 1,
+         "answer": "Explanation:If the user is launching RDS with Multi AZ the user cannot provision the Availability Zone. RDS islaunched automatically insteadhttps://console.aws.amazon.com/rds/",
+         "options": [
+            {
+               "id": 1056,
+               "questionId": 2014,
+               "name": "A. Availability Zone",
+               "isAnswer": true
+            },
+            {
+               "id": 1057,
+               "questionId": 2014,
+               "name": "B. Region",
+               "isAnswer": false
+            },
+            {
+               "id": 1058,
+               "questionId": 2014,
+               "name": "C. DB subnet group",
+               "isAnswer": false
+            },
+            {
+               "id": 1059,
+               "questionId": 2014,
+               "name": "D. Database port",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2015,
+         "name": "NO.275 A Developer is building a three-tier web application that should be able to handle aminimum of5000 requests per minute. Requirements state that the web tier should be completely stateless whilethe application maintains session state for the users.How can session data be externalized, keeping latency at the LOWEST possible value?",
+         "questionTypeId": 1,
+         "answer": "",
+         "options": [
+            {
+               "id": 1060,
+               "questionId": 2015,
+               "name": "A. Create an Amazon RDS instance, then implement session handling at the application level toleverage a database inside the RDS database instance for session data storage",
+               "isAnswer": true
+            },
+            {
+               "id": 1061,
+               "questionId": 2015,
+               "name": "B. Implement a shared file system solution across the underlying Amazon EC2 instances, thenimplement session handling at the application level to leverage the shared file system for sessiondata storage",
+               "isAnswer": false
+            },
+            {
+               "id": 1062,
+               "questionId": 2015,
+               "name": "C. Create an Amazon ElastiCache Memcached cluster, then implement session handling at theapplication level to leverage the cluster for session data storage",
+               "isAnswer": false
+            },
+            {
+               "id": 1063,
+               "questionId": 2015,
+               "name": "D. Create an Amazon DynamoDB table, then implement session handling at the application level toleverage the table for session data storage",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2016,
+         "name": "NO.276 ___________ is a task coordination and state management service for cloud applications.",
+         "questionTypeId": 1,
+         "answer": "Explanation:Amazon Simple Workflow (Amazon SWF) is a task coordination and state management service forcloud applications. With Amazon SWF, you can stop writing complex glue-code and state machineryand invest more in the business logic that makes your applications unique.http://aws.amazon.com/swf/",
+         "options": [
+            {
+               "id": 1064,
+               "questionId": 2016,
+               "name": "A. Amazon SES",
+               "isAnswer": false
+            },
+            {
+               "id": 1065,
+               "questionId": 2016,
+               "name": "B. Amazon SWF",
+               "isAnswer": true
+            },
+            {
+               "id": 1066,
+               "questionId": 2016,
+               "name": "C. Amazon FPS",
+               "isAnswer": false
+            },
+            {
+               "id": 1067,
+               "questionId": 2016,
+               "name": "D. Amazon SNS",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2017,
+         "name": "NO.277 An application writes items to an Amazon DynamoDB table. As the application scales tothousands of instances, calls to the DynamoDB API generate occasional ThrottlingException errors.The application is coded in a language incompatible with the AWS SDK.How should the error be handled?",
+         "questionTypeId": 1,
+         "answer": "",
+         "options": [
+            {
+               "id": 1068,
+               "questionId": 2017,
+               "name": "A. Add exponential backoff to the application logic",
+               "isAnswer": true
+            },
+            {
+               "id": 1069,
+               "questionId": 2017,
+               "name": "B. Use Amazon SQS as an API message bus",
+               "isAnswer": false
+            },
+            {
+               "id": 1070,
+               "questionId": 2017,
+               "name": "C. Pass API calls through Amazon API Gateway",
+               "isAnswer": false
+            },
+            {
+               "id": 1071,
+               "questionId": 2017,
+               "name": "D. Send the items to DynamoDB through Amazon Kinesis Data Firehose",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2018,
+         "name": "NO.278 A user has launched five instances with ELB. How can the user add the sixth EC2 instance to",
+         "questionTypeId": 1,
+         "answer": "Explanation:Elastic Load Balancing automatically distributes incoming traffic across multiple EC2 instances.You create a load balancer and register instances with the load balancer in one or more AvailabilityZones. The load balancer serves as a single point of contact for clients. This enables you to increasethe availability of your application. You can add and remove EC2 instances from your load balancer asyour needs change, without disrupting the overall flow of information.http://docs.aws.amazon.com/ElasticLoadBalancing/latest/DeveloperGuide/SvcIntro.html",
+         "options": [
+            {
+               "id": 1072,
+               "questionId": 2018,
+               "name": "A. The user can add the sixth instance on the fly.",
+               "isAnswer": true
+            },
+            {
+               "id": 1073,
+               "questionId": 2018,
+               "name": "B. The user must stop the ELB and add the sixth instance.",
+               "isAnswer": false
+            },
+            {
+               "id": 1074,
+               "questionId": 2018,
+               "name": "C. The user can add the instance and change the ELB config file.",
+               "isAnswer": false
+            },
+            {
+               "id": 1075,
+               "questionId": 2018,
+               "name": "D. The ELB can only have a maximum of five instances.",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2019,
+         "name": "NO.279 What is the maximum time messages can be stored in SQS?",
+         "questionTypeId": 1,
+         "answer": "Explanation:A message can be stored in the Simple Queue Service (SQS) from 1 minute up to a maximum of14 days.",
+         "options": [
+            {
+               "id": 1076,
+               "questionId": 2019,
+               "name": "A. 14 days",
+               "isAnswer": true
+            },
+            {
+               "id": 1077,
+               "questionId": 2019,
+               "name": "B. one month",
+               "isAnswer": false
+            },
+            {
+               "id": 1078,
+               "questionId": 2019,
+               "name": "C. 4 days",
+               "isAnswer": false
+            },
+            {
+               "id": 1079,
+               "questionId": 2019,
+               "name": "D. 7 days",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2020,
+         "name": "NO.280 You have a number of image files to encode. In an Amazon SQS worker queue, you createan Amazon SQS message for each file specifying the command (jpeg-encode) and the location of thefile in Amazon S3. Which of the following statements best describes the functionality of Amazon SQS",
+         "questionTypeId": 1,
+         "answer": "Explanation:Amazon SQS is a distributed queuing system that is optimized for horizontal scalability, not for single-threaded sending or receiving speeds. A single client can send or receive Amazon SQS messages at arate of about 5 to 50 messages per second. Higher receive performance can be achieved byrequesting multiple messages (up to 10) in a single call. It may take several seconds before a messagethat has been to a queue is available to be received.http://media.amazonwebservices.com/AWS_Storage_Options.pdf",
+         "options": [
+            {
+               "id": 1080,
+               "questionId": 2020,
+               "name": "A. Amazon SQS is for single-threaded sending or receiving speeds.",
+               "isAnswer": false
+            },
+            {
+               "id": 1081,
+               "questionId": 2020,
+               "name": "B. Amazon SQS is a non-distributed queuing system.",
+               "isAnswer": false
+            },
+            {
+               "id": 1082,
+               "questionId": 2020,
+               "name": "C. Amazon SQS is a distributed queuing system that is optimized for horizontal scalability, not forsingle-threaded sending or receiving speeds.",
+               "isAnswer": true
+            },
+            {
+               "id": 1083,
+               "questionId": 2020,
+               "name": "D. Amazon SQS is a distributed queuing system that is optimized for vertical scalability and for single-threaded sending or receiving speeds.",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2021,
+         "name": "NO.281 A user has setup an application on EC2 which uses the IAM user access key and secretaccess key to make secure calls to S3. The user wants to temporarily stop the access to S3 for thatIAM user. What should the root owner do?",
+         "questionTypeId": 1,
+         "answer": "Explanation:If the user wants to temporarily stop the access to S3 the best solution is to disable the keys.Deleting the user will result in a loss of all the credentials and the app will not be useful in the future.If the user stops the instance IAM users can still access S3. The change of the key does not help eitheras they are still active. The best possible solution is to disable the keys.http://docs.aws.amazon.com/IAM/latest/UserGuide/ManagingCredentials.html",
+         "options": [
+            {
+               "id": 1084,
+               "questionId": 2021,
+               "name": "A. Delete the IAM user",
+               "isAnswer": false
+            },
+            {
+               "id": 1085,
+               "questionId": 2021,
+               "name": "B. Change the access key and secret access key for the users",
+               "isAnswer": false
+            },
+            {
+               "id": 1086,
+               "questionId": 2021,
+               "name": "C. Disable the access keys for the IAM user",
+               "isAnswer": true
+            },
+            {
+               "id": 1087,
+               "questionId": 2021,
+               "name": "D. Stop the instance",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2022,
+         "name": "NO.282 A serverless application uses an API Gateway and AWS Lambda. Where should the Lambdafunction store its session information across function calls?",
+         "questionTypeId": 1,
+         "answer": "",
+         "options": [
+            {
+               "id": 1088,
+               "questionId": 2022,
+               "name": "A. In an Amazon DynamoDB table",
+               "isAnswer": true
+            },
+            {
+               "id": 1089,
+               "questionId": 2022,
+               "name": "B. In an Amazon SQS queue",
+               "isAnswer": false
+            },
+            {
+               "id": 1090,
+               "questionId": 2022,
+               "name": "C. In the local filesystemD.In an SQLite session table using -DSQLITE_ENABLE_SESSION",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2023,
+         "name": "NO.283 Does Amazon DynamoDB support both increment and decrement atomic operations?",
+         "questionTypeId": 1,
+         "answer": "Explanation:Amazon DynamoDB supports increment and decrement atomic operations.http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/APISummary.html",
+         "options": [
+            {
+               "id": 1091,
+               "questionId": 2023,
+               "name": "A. No, neither increment nor decrement operations.",
+               "isAnswer": false
+            },
+            {
+               "id": 1092,
+               "questionId": 2023,
+               "name": "B. Only increment, since decrement are inherently impossible with DynamoDB's data model.",
+               "isAnswer": false
+            },
+            {
+               "id": 1093,
+               "questionId": 2023,
+               "name": "C. Only decrement, since increment are inherently impossible with DynamoDB's data model.",
+               "isAnswer": false
+            },
+            {
+               "id": 1094,
+               "questionId": 2023,
+               "name": "D. Yes, both increment and decrement operations.",
+               "isAnswer": true
+            }
+         ]
+      },
+      {
+         "id": 2024,
+         "name": "NO.284 A gaming company is developing a mobile game application for iOS?and Android?platforms.This mobile game securely stores user data locally on the device. The company wants to allow usersto use multiple device for the game, which requires user data synchronization across device.Which service should be used to synchronize user data across devices without the need to create abackend application?",
+         "questionTypeId": 1,
+         "answer": "",
+         "options": [
+            {
+               "id": 1095,
+               "questionId": 2024,
+               "name": "A. AWS Lambda",
+               "isAnswer": false
+            },
+            {
+               "id": 1096,
+               "questionId": 2024,
+               "name": "B. Amazon S3",
+               "isAnswer": false
+            },
+            {
+               "id": 1097,
+               "questionId": 2024,
+               "name": "C. Amazon DynamoDB",
+               "isAnswer": false
+            },
+            {
+               "id": 1098,
+               "questionId": 2024,
+               "name": "D. Amazon Cognito",
+               "isAnswer": true
+            }
+         ]
+      },
+      {
+         "id": 2025,
+         "name": "NO.285 A user is planning to make a mobile game which can be played online or offline and will behosted on EC2. The user wants to ensure that if someone breaks the highest score or they achievesome milestone they can inform all their colleagues through email. Which of the below mentionedAWS services helps achieve this goal?",
+         "questionTypeId": 1,
+         "answer": "Explanation:Amazon Simple Email Service (Amazon SES) is a highly scalable and cost-effective email- sendingservice for businesses and developers. It integrates with other AWS services, making it easy to sendemails from applications that are hosted on AWS.http://aws.amazon.com/ses/faqs/",
+         "options": [
+            {
+               "id": 1099,
+               "questionId": 2025,
+               "name": "A. AWS Simple Workflow Service.",
+               "isAnswer": false
+            },
+            {
+               "id": 1100,
+               "questionId": 2025,
+               "name": "B. AWS Simple Queue Service.",
+               "isAnswer": false
+            },
+            {
+               "id": 1101,
+               "questionId": 2025,
+               "name": "C. Amazon Cognito",
+               "isAnswer": false
+            },
+            {
+               "id": 1102,
+               "questionId": 2025,
+               "name": "D. AWS Simple Email Service.",
+               "isAnswer": true
+            }
+         ]
+      },
+      {
+         "id": 2026,
+         "name": "NO.286 A Developer accesses AWS CodeCommit over SSH. The SSH keys configured to access AWSCodeCommit are tied to a user with the following permissions:The Developer needs to create/delete branches.Which specific IAM permissions need to be added, based on the principle of least privilege?",
+         "questionTypeId": 1,
+         "answer": "",
+         "options": [
+            {
+               "id": 1103,
+               "questionId": 2026,
+               "name": "A. \"codecommit:CreateBranch\"\"codecommit:DeleteBranch\"",
+               "isAnswer": false
+            },
+            {
+               "id": 1104,
+               "questionId": 2026,
+               "name": "B. \"codecommit:Put*\"",
+               "isAnswer": false
+            },
+            {
+               "id": 1105,
+               "questionId": 2026,
+               "name": "C. \"codecommit:Update*\"",
+               "isAnswer": true
+            },
+            {
+               "id": 1106,
+               "questionId": 2026,
+               "name": "D. \"codecommit:*\"",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2027,
+         "name": "NO.287 A Lambda function is packaged for deployment to multiple environments, includingdevelopment, test, production, etc. Each environment has unique set of resources such as databases,How can the Lambda function use the resources for the current environment?",
+         "questionTypeId": 1,
+         "answer": "",
+         "options": [
+            {
+               "id": 1107,
+               "questionId": 2027,
+               "name": "A. Apply tags to the Lambda functions.",
+               "isAnswer": false
+            },
+            {
+               "id": 1108,
+               "questionId": 2027,
+               "name": "B. Hardcore resources in the source code.",
+               "isAnswer": false
+            },
+            {
+               "id": 1109,
+               "questionId": 2027,
+               "name": "C. Use environment variables for the Lambda functions.",
+               "isAnswer": true
+            },
+            {
+               "id": 1110,
+               "questionId": 2027,
+               "name": "D. Use separate function for development and production.",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2028,
+         "name": "NO.288 An online gaming site asked you if you can deploy a database that is a fast, highly scalableNoSQL database service in AWS for a new site that he wants to build. Which database should yourecommend?",
+         "questionTypeId": 1,
+         "answer": "Explanation:Amazon DynamoDB is ideal for database applications that require very low latency and predictableperformance at any scale but don't need complex querying capabilities like joins or transactions.Amazon DynamoDB is a fully-managed NoSQL database service that offers high performance,predictable throughput and low cost. It is easy to set up, operate, and scale. With AmazonDynamoDB, you can start small, specify the throughput and storage you need, and easily scale yourcapacity requirements on the fly. Amazon DynamoDB automatically partitions data over a number ofservers to meet your request capacity. In addition, DynamoDB automatically replicates your datasynchronously across multiple Availability Zones within an AWS Region to ensure high-availability anddata durability.https://aws.amazon.com/running_databases/#dynamodb_anchor",
+         "options": [
+            {
+               "id": 1111,
+               "questionId": 2028,
+               "name": "A. Amazon Redshift",
+               "isAnswer": false
+            },
+            {
+               "id": 1112,
+               "questionId": 2028,
+               "name": "B. Amazon SimpleDB",
+               "isAnswer": false
+            },
+            {
+               "id": 1113,
+               "questionId": 2028,
+               "name": "C. Amazon DynamoDB",
+               "isAnswer": true
+            },
+            {
+               "id": 1114,
+               "questionId": 2028,
+               "name": "D. Amazon RDS",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2029,
+         "name": "NO.289 An application stops working with the following error: The specified bucket does not exist.Where is the BEST place to start the root cause analysis?",
+         "questionTypeId": 1,
+         "answer": "Explanation:https://github.com/serverless/serverless-graphql/issues/72",
+         "options": [
+            {
+               "id": 1115,
+               "questionId": 2029,
+               "name": "A. Check the Elastic Load Balancer logs for DeleteBucket requests.",
+               "isAnswer": false
+            },
+            {
+               "id": 1116,
+               "questionId": 2029,
+               "name": "B. Check the application logs in Amazon CloudWatch Logs for Amazon S3 DeleteBucket errors.",
+               "isAnswer": false
+            },
+            {
+               "id": 1117,
+               "questionId": 2029,
+               "name": "C. Check AWS X-Ray for Amazon S3 DeleteBucket alarms.",
+               "isAnswer": false
+            },
+            {
+               "id": 1118,
+               "questionId": 2029,
+               "name": "D. Check AWS CloudTrail for a DeleteBucket event.",
+               "isAnswer": true
+            }
+         ]
+      },
+      {
+         "id": 2030,
+         "name": "NO.290 A user wants to configure AutoScaling which scales up when the CPU utilization is above70% and scales down when the CPU utilization is below 30%. How can the user configure AutoScalingfor the above mentioned condition?",
+         "questionTypeId": 1,
+         "answer": "Explanation:The user can configure the AutoScaling group to automatically scale up and then scale down basedon the specified conditions. To configure this, the user must setup policies which will get triggered bythe CloudWatch alarms.http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/as-scale-based-on-demand.html",
+         "options": [
+            {
+               "id": 1119,
+               "questionId": 2030,
+               "name": "A. Use AutoScaling with a schedule",
+               "isAnswer": false
+            },
+            {
+               "id": 1120,
+               "questionId": 2030,
+               "name": "B. Configure ELB to notify AutoScaling on load increase or decrease",
+               "isAnswer": false
+            },
+            {
+               "id": 1121,
+               "questionId": 2030,
+               "name": "C. Use dynamic AutoScaling with a policy",
+               "isAnswer": true
+            },
+            {
+               "id": 1122,
+               "questionId": 2030,
+               "name": "D. Use AutoScaling by manually modifying the desired capacity during a condition",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2031,
+         "name": "NO.291 Which of the below mentioned commands allows the user to share the AMI with his peersusing the AWS EC2 CLI?",
+         "questionTypeId": 1,
+         "answer": "Explanation:A user can share an AMI with another user / peer using the command:ec2-modify-image-attribute <AMI-ID> -l -a <AWS Account ID>http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/sharingamis-explicit.html",
+         "options": [
+            {
+               "id": 1123,
+               "questionId": 2031,
+               "name": "A. ec2-share-image-public",
+               "isAnswer": false
+            },
+            {
+               "id": 1124,
+               "questionId": 2031,
+               "name": "B. ec2-share-image-account",
+               "isAnswer": false
+            },
+            {
+               "id": 1125,
+               "questionId": 2031,
+               "name": "C. ec2-share-image",
+               "isAnswer": false
+            },
+            {
+               "id": 1126,
+               "questionId": 2031,
+               "name": "D. ec2-modify-image-attribute",
+               "isAnswer": true
+            }
+         ]
+      },
+      {
+         "id": 2032,
+         "name": "NO.292 A system admin is planning to setup event notifications on RDS. Which of the belowmentioned services will help the admin setup notifications?",
+         "questionTypeId": 1,
+         "answer": "",
+         "options": [
+            {
+               "id": 1127,
+               "questionId": 2032,
+               "name": "A. AWS SES",
+               "isAnswer": false
+            },
+            {
+               "id": 1128,
+               "questionId": 2032,
+               "name": "B. AWS Cloudtrail",
+               "isAnswer": false
+            },
+            {
+               "id": 1129,
+               "questionId": 2032,
+               "name": "C. AWS CloudWatch",
+               "isAnswer": false
+            },
+            {
+               "id": 1130,
+               "questionId": 2032,
+               "name": "D. AWS SNS",
+               "isAnswer": true
+            }
+         ]
+      },
+      {
+         "id": 2033,
+         "name": "NO.293 In a move toward using microservices, a company's Management team has asked allDevelopment teams to build their services so that API requests depend only on that service's datastore. One team is building a Payments service which has its own database; the service needs datathat originates in the Accounts database. Both are using Amazon DynamoDB.What approach will result in the simplest, decoupled, and reliable method to get near-real timeupdates from the Accounts database?",
+         "questionTypeId": 1,
+         "answer": "",
+         "options": [
+            {
+               "id": 1131,
+               "questionId": 2033,
+               "name": "A. Use Amazon Glue to perform frequent ETL updates from the Accounts database to the Paymentsdatabase.",
+               "isAnswer": false
+            },
+            {
+               "id": 1132,
+               "questionId": 2033,
+               "name": "B. Use Amazon ElastiCache in Payments, with the cache updated by triggers in the Accountsdatabase.",
+               "isAnswer": false
+            },
+            {
+               "id": 1133,
+               "questionId": 2033,
+               "name": "C. Use Amazon Kinesis Data Firehouse to deliver all changes from the Accounts database to thePayments database.",
+               "isAnswer": false
+            },
+            {
+               "id": 1134,
+               "questionId": 2033,
+               "name": "D. Use Amazon DynamoDB Streams to deliver all changes from the Accounts database to thePayments database.",
+               "isAnswer": true
+            }
+         ]
+      },
+      {
+         "id": 2034,
+         "name": "NO.294 A Developer is writing a Linux-based application to run on AWS Elastic Beanstalk.Application requirements state that the application must maintain full capacity during updates whileminimizing cost. Which type of Elastic Beanstalk deployment policy should the Developer specify forthe environment?",
+         "questionTypeId": 1,
+         "answer": "Explanation:https://aws.amazon.com/about-aws/whats-new/2016/04/aws-elastic-beanstalk-adds-two-new-deployment-policies-and-amazon-linux-ami-2016-03-update/",
+         "options": [
+            {
+               "id": 1135,
+               "questionId": 2034,
+               "name": "A. Immutable",
+               "isAnswer": true
+            },
+            {
+               "id": 1136,
+               "questionId": 2034,
+               "name": "B. Rolling",
+               "isAnswer": false
+            },
+            {
+               "id": 1137,
+               "questionId": 2034,
+               "name": "C. All at Once",
+               "isAnswer": false
+            },
+            {
+               "id": 1138,
+               "questionId": 2034,
+               "name": "D. Rolling with additional batch",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2035,
+         "name": "NO.295 A user has configured an automated backup between 5 AM ?5:30 AM for the MySQL RDSWill the performance of RDS get frozen momentarily during a backup?",
+         "questionTypeId": 1,
+         "answer": "Explanation:Amazon RDS provides two different methods for backing up and restoring the Amazon DB instances.A brief I/O freeze, typically lasting a few seconds, occurs during both automated backups and DBsnapshot operations on Single-AZ DB instances.",
+         "options": [
+            {
+               "id": 1139,
+               "questionId": 2035,
+               "name": "A. No",
+               "isAnswer": false
+            },
+            {
+               "id": 1140,
+               "questionId": 2035,
+               "name": "B. Yes, only if the instance size is smaller than large size",
+               "isAnswer": false
+            },
+            {
+               "id": 1141,
+               "questionId": 2035,
+               "name": "C. Yes, provided it is a single zone implementation",
+               "isAnswer": true
+            },
+            {
+               "id": 1142,
+               "questionId": 2035,
+               "name": "D. Yes, always",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2036,
+         "name": "NO.296 In relation to Amazon SQS, how can you ensure that messages are delivered in order?",
+         "questionTypeId": 1,
+         "answer": "Explanation:Amazon SQS makes a best effort to preserve order in messages, but due to the distributed nature ofthe queue, AWS cannot guarantee that you will receive messages in the exact order you sent them.You typically place sequencing information or timestamps in your messages so that you can reorderthem upon receipt.https://aws.amazon.com/items/1343?externalID=1343",
+         "options": [
+            {
+               "id": 1143,
+               "questionId": 2036,
+               "name": "A. Increase the size of your queue",
+               "isAnswer": false
+            },
+            {
+               "id": 1144,
+               "questionId": 2036,
+               "name": "B. Send them with a timestamp",
+               "isAnswer": false
+            },
+            {
+               "id": 1145,
+               "questionId": 2036,
+               "name": "C. Give each message a unique id.",
+               "isAnswer": false
+            },
+            {
+               "id": 1146,
+               "questionId": 2036,
+               "name": "D. AWS cannot guarantee that you will receive messages in the exact order you sent them",
+               "isAnswer": true
+            }
+         ]
+      },
+      {
+         "id": 2037,
+         "name": "NO.297 Which of the below mentioned options is a must to have an element as a part of the IAMpolicy?",
+         "questionTypeId": 1,
+         "answer": "Explanation:The statement is the main element of the IAM policy and it is a must for a policy.Elements such as condition, version and ID are not required.http://docs.aws.amazon.com/IAM/latest/UserGuide/AccessPolicyLanguage_ElementDescriptions.html",
+         "options": [
+            {
+               "id": 1147,
+               "questionId": 2037,
+               "name": "A. Condition",
+               "isAnswer": false
+            },
+            {
+               "id": 1148,
+               "questionId": 2037,
+               "name": "B. ID",
+               "isAnswer": false
+            },
+            {
+               "id": 1149,
+               "questionId": 2037,
+               "name": "C. Statement",
+               "isAnswer": true
+            },
+            {
+               "id": 1150,
+               "questionId": 2037,
+               "name": "D. Version",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2038,
+         "name": "NO.298 What is the scope of AWS IAM?",
+         "questionTypeId": 1,
+         "answer": "Explanation:IAM resources are all global; there is not regional constraint.",
+         "options": [
+            {
+               "id": 1151,
+               "questionId": 2038,
+               "name": "A. Global",
+               "isAnswer": true
+            },
+            {
+               "id": 1152,
+               "questionId": 2038,
+               "name": "B. Availability Zone",
+               "isAnswer": false
+            },
+            {
+               "id": 1153,
+               "questionId": 2038,
+               "name": "C. Region",
+               "isAnswer": false
+            },
+            {
+               "id": 1154,
+               "questionId": 2038,
+               "name": "D. Placement Group",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2039,
+         "name": "NO.299 A user is trying to create a policy for an IAM user from the AWS console. Which of the belowmentioned options is not available to the user while configuring policy?",
+         "questionTypeId": 1,
+         "answer": "Explanation:When a user is trying to create a policy from the AWS console, it will have options such as createpolicy from templates or use a policy generator. The user can also define a custom policy or chosethe option to have no permission. The policy simulator is not available in the console.http://docs.aws.amazon.com/IAM/latest/UserGuide/IAMBestPractices.html",
+         "options": [
+            {
+               "id": 1155,
+               "questionId": 2039,
+               "name": "A. Use policy generator to create policy",
+               "isAnswer": false
+            },
+            {
+               "id": 1156,
+               "questionId": 2039,
+               "name": "B. Use custom policy to create policy",
+               "isAnswer": false
+            },
+            {
+               "id": 1157,
+               "questionId": 2039,
+               "name": "C. Use policy simulator to create policy",
+               "isAnswer": true
+            },
+            {
+               "id": 1158,
+               "questionId": 2039,
+               "name": "D. Assign No permission",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2040,
+         "name": "NO.300 A bucket owner has allowed another account's IAM users to upload or access objects in hisbucket. The IAM user of Account A is trying to access an object created by the IAM user of account B.What will happen in this scenario?",
+         "questionTypeId": 1,
+         "answer": "Explanation:If a IAM user is trying to perform some action on an object belonging to another AWS user's bucket,S3 will verify whether the owner of the IAM user has given sufficient permission to him.It also verifies the policy for the bucket as well as the policy defined by the object owner.",
+         "options": [
+            {
+               "id": 1159,
+               "questionId": 2040,
+               "name": "A. The bucket policy may not be created as S3 will give error due to conflict of Access Rights",
+               "isAnswer": false
+            },
+            {
+               "id": 1160,
+               "questionId": 2040,
+               "name": "B. It is not possible to give permission to multiple IAM users",
+               "isAnswer": false
+            },
+            {
+               "id": 1161,
+               "questionId": 2040,
+               "name": "C. AWS S3 will verify proper rights given by the owner of Account A, the bucket owner as well as bythe IAM user B to the object",
+               "isAnswer": true
+            },
+            {
+               "id": 1162,
+               "questionId": 2040,
+               "name": "D. It is not possible that the IAM user of one account accesses objects of the other IAM user",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2041,
+         "name": "NO.301 An Amazon S3 bucket, \"myawsbucket\" is configured with website hosting in Tokyo region,what is the region-specific website endpoint?",
+         "questionTypeId": 1,
+         "answer": "",
+         "options": [
+            {
+               "id": 1163,
+               "questionId": 2041,
+               "name": "A. www.myawsbucket.ap-northeast-1.amazonaws.com",
+               "isAnswer": false
+            },
+            {
+               "id": 1164,
+               "questionId": 2041,
+               "name": "B. myawsbucket.s3-website-ap-northeast-l.amazonawscom",
+               "isAnswer": true
+            },
+            {
+               "id": 1165,
+               "questionId": 2041,
+               "name": "C. myawsbucket.amazonaws.com",
+               "isAnswer": false
+            },
+            {
+               "id": 1166,
+               "questionId": 2041,
+               "name": "D. myawsbucket.tokyo.amazonaws.com",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2042,
+         "name": "NO.302 When a user is detaching an EBS volume from a running instance and attaching it to a newinstance, which of the below mentioned options should be followed to avoid file system damage?",
+         "questionTypeId": 1,
+         "answer": "Explanation:When a user is trying to detach an EBS volume, the user can either terminate the instance orexplicitly remove the volume. It is a recommended practice to unmount the volume first to avoid anyfile system damage.http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-detaching-volume.html",
+         "options": [
+            {
+               "id": 1167,
+               "questionId": 2042,
+               "name": "A. Unmount the volume first",
+               "isAnswer": true
+            },
+            {
+               "id": 1168,
+               "questionId": 2042,
+               "name": "B. Stop all the I/O of the volume before processing",
+               "isAnswer": false
+            },
+            {
+               "id": 1169,
+               "questionId": 2042,
+               "name": "C. Take a snapshot of the volume before detaching",
+               "isAnswer": false
+            },
+            {
+               "id": 1170,
+               "questionId": 2042,
+               "name": "D. Force Detach the volume to ensure that all the data stays intact",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2043,
+         "name": "NO.303 A company is running an application built on AWS Lambda functions. One Lambda functionhas performance issues when it has to download a 50MB file from the Internet in every execution.This function is called multiple times a second.What solution would give the BEST performance increase?",
+         "questionTypeId": 1,
+         "answer": "",
+         "options": [
+            {
+               "id": 1171,
+               "questionId": 2043,
+               "name": "A. Cache the file in the /tmp directory",
+               "isAnswer": false
+            },
+            {
+               "id": 1172,
+               "questionId": 2043,
+               "name": "B. Increase the Lambda maximum execution time",
+               "isAnswer": false
+            },
+            {
+               "id": 1173,
+               "questionId": 2043,
+               "name": "C. Put an Elastic Load Balancer in front of the Lambda function",
+               "isAnswer": false
+            },
+            {
+               "id": 1174,
+               "questionId": 2043,
+               "name": "D. Cache the file in Amazon S3",
+               "isAnswer": true
+            }
+         ]
+      },
+      {
+         "id": 2044,
+         "name": "NO.304 A company is providing services to many downstream consumers. Each consumer mayconnect to one or more services. This has resulted in a complex architecture that is difficult tomanage and does not scale well. The company needs a single interface to manage these services toconsumers.Which AWS service should be used to refactor this architecture?",
+         "questionTypeId": 1,
+         "answer": "",
+         "options": [
+            {
+               "id": 1175,
+               "questionId": 2044,
+               "name": "A. AWS Lambda",
+               "isAnswer": false
+            },
+            {
+               "id": 1176,
+               "questionId": 2044,
+               "name": "B. AWS X-Ray",
+               "isAnswer": false
+            },
+            {
+               "id": 1177,
+               "questionId": 2044,
+               "name": "C. Amazon SQS",
+               "isAnswer": false
+            },
+            {
+               "id": 1178,
+               "questionId": 2044,
+               "name": "D. Amazon API Gateway",
+               "isAnswer": true
+            }
+         ]
+      },
+      {
+         "id": 2045,
+         "name": "NO.305 You have been doing a lot of testing of your VPC Network by deliberately failing EC2instances to test whether instances are failing over properly. Your customer who will be paying theAWS bill for all this asks you if he being charged for all these instances. You try to explain to him howthe billing works on EC2 instances to the best of your knowledge. What would be an appropriateresponse to give to the customer in regards to this?",
+         "questionTypeId": 1,
+         "answer": "Explanation:Billing commences when Amazon EC2 initiates the boot sequence of an AMI instance. Billing endswhen the instance shuts down, which could occur through a web services command, by running\"shutdown -h\", or through instance failure.http://aws.amazon.com/ec2/faqs/#Billing",
+         "options": [
+            {
+               "id": 1179,
+               "questionId": 2045,
+               "name": "A. Billing commences when Amazon EC2 AMI instance is completely up and billing ends as soon asthe instance starts to shutdown.",
+               "isAnswer": false
+            },
+            {
+               "id": 1180,
+               "questionId": 2045,
+               "name": "B. Billing commences when Amazon EC2 initiates the boot sequence of an AMI instance and billingends when the instance shuts down.",
+               "isAnswer": true
+            },
+            {
+               "id": 1181,
+               "questionId": 2045,
+               "name": "C. Billing only commences only after 1 hour of uptime and billing ends when the instance terminates.",
+               "isAnswer": false
+            },
+            {
+               "id": 1182,
+               "questionId": 2045,
+               "name": "D. Billing commences when Amazon EC2 initiates the boot sequence of an AMI instance and billingends as soon as the instance starts to shutdown.",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2046,
+         "name": "NO.306 A Developer must re-implement the business logic for an order fulfilment system. Thebusiness logic has to make requests to multiple vendors to decide where to purchase an item. Thewhole process can take up to a week to complete.What is the MOST efficient and SIMPLEST way to implement a system that meets theserequirements?",
+         "questionTypeId": 1,
+         "answer": "",
+         "options": [
+            {
+               "id": 1183,
+               "questionId": 2046,
+               "name": "A. Use AWS Step Functions to execute parallel Lambda functions, and join the results.",
+               "isAnswer": false
+            },
+            {
+               "id": 1184,
+               "questionId": 2046,
+               "name": "B. Create an AWS SQS for each vendor, poll the queue from a worker instance, and joint the results.",
+               "isAnswer": false
+            },
+            {
+               "id": 1185,
+               "questionId": 2046,
+               "name": "C. Use AWS Lambda to asynchronously call a Lambda function for each vendor, and join the results.",
+               "isAnswer": false
+            },
+            {
+               "id": 1186,
+               "questionId": 2046,
+               "name": "D. Use Amazon CloudWatch Events to orchestrate the Lambda functions.",
+               "isAnswer": true
+            }
+         ]
+      },
+      {
+         "id": 2047,
+         "name": "NO.307 A user is planning to use the AWS RDS with MySQL. Which of the below mentioned servicesthe user is not going to pay?",
+         "questionTypeId": 1,
+         "answer": "Explanation:RDS charges the user on a pay as you go basis. It charges the user based on the instance type,number of hours that the instance is running, data transfer, storage cost as well for the I/O requests.The monitoring is free of cost.http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html",
+         "options": [
+            {
+               "id": 1187,
+               "questionId": 2047,
+               "name": "A. Data transfer",
+               "isAnswer": false
+            },
+            {
+               "id": 1188,
+               "questionId": 2047,
+               "name": "B. RDS Cloudwatch metrics",
+               "isAnswer": true
+            },
+            {
+               "id": 1189,
+               "questionId": 2047,
+               "name": "C. Data storage",
+               "isAnswer": false
+            },
+            {
+               "id": 1190,
+               "questionId": 2047,
+               "name": "D. I/O requests per month",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2048,
+         "name": "NO.308 A company has written a Java AWS Lambda function to be triggered whenever a useruploads an image to an Amazon S3 bucket. The function converts the original image to severaldifferent formats and then copies the resulting images to another Amazon S3 bucket.The Developers find that no images are being copied to the second Amazon S3 bucket. They havetested the code on an Amazon EC2 instance with 1GB of RAM, and it takes an average of500 seconds to complete.What is the MOST likely cause of the problem?",
+         "questionTypeId": 1,
+         "answer": "",
+         "options": [
+            {
+               "id": 1191,
+               "questionId": 2048,
+               "name": "A. The Lambda function has insufficient memory and needs to be increased to 1 GB to match theAmazon EC2 instance",
+               "isAnswer": false
+            },
+            {
+               "id": 1192,
+               "questionId": 2048,
+               "name": "B. Files need to be copied to the same Amazon S3 bucket for processing, so the second bucket needsto be deleted.",
+               "isAnswer": false
+            },
+            {
+               "id": 1193,
+               "questionId": 2048,
+               "name": "C. Lambda functions have a maximum execution limit of 300 seconds, therefore the function is notcompleting.",
+               "isAnswer": true
+            },
+            {
+               "id": 1194,
+               "questionId": 2048,
+               "name": "D. There is a problem with the Java runtime for Lambda, and the function needs to be converted tonode.js.",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2049,
+         "name": "NO.309 A company has a multi-tiered web application on AWS. During a recent spike in traffic, oneof the primary relational databases on Amazon RDS could not serve all the traffic. Some read queriesfor repeatedly accessed items failed, so users received error messages.What can be done to minimize the impact on database read queries MOST efficiently during futuretraffic spikes?",
+         "questionTypeId": 1,
+         "answer": "",
+         "options": [
+            {
+               "id": 1195,
+               "questionId": 2049,
+               "name": "A. Use Amazon S3 to cache database query results.",
+               "isAnswer": false
+            },
+            {
+               "id": 1196,
+               "questionId": 2049,
+               "name": "B. Use Amazon RDS as a custom origin for Amazon CloudFront.",
+               "isAnswer": true
+            },
+            {
+               "id": 1197,
+               "questionId": 2049,
+               "name": "C. Use local storage and memory on Amazon EC2 instances to cache data.",
+               "isAnswer": false
+            },
+            {
+               "id": 1198,
+               "questionId": 2049,
+               "name": "D. Use Amazon ElastiCache in front of the primary database to cache data.",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2050,
+         "name": "NO.310 Which code snippet below returns the URL of a load balanced web site created inCloudFormation with an AWS::ElasticLoadBalancing::LoadBalancer resource name \"ElasticLoadBalancer\"?",
+         "questionTypeId": 1,
+         "answer": "",
+         "options": [
+            {
+               "id": 1199,
+               "questionId": 2050,
+               "name": "A. \"Fn::Join\" : [\"\". [ \"http://\", {\"Fn::GetAtr\" : [ \"ElasticLoadBalancer\",\"DNSName\"]}]]",
+               "isAnswer": true
+            },
+            {
+               "id": 1200,
+               "questionId": 2050,
+               "name": "B. \"Fn::Join\" : [\"\". [ \"http://\", {\"Fn::GetAtr\" : [ \"ElasticLoadBalancer\",\"Url\"]}]]",
+               "isAnswer": false
+            },
+            {
+               "id": 1201,
+               "questionId": 2050,
+               "name": "C. \"Fn::Join\" : [\"\". [ \"http://\", {\"Ref\" : \"ElasticLoadBalancerUrl\"}]]",
+               "isAnswer": false
+            },
+            {
+               "id": 1202,
+               "questionId": 2050,
+               "name": "D. \"Fn::Join\" : [\".\", [ \"http://\", {\"Ref\" : \"ElasticLoadBalancerDNSName\"}]]",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2051,
+         "name": "NO.311 A company caches session information for a web application in an Amazon DynamoDBtable.The company wants an automated way to delete old items from the table.What is the simplest way to do this?",
+         "questionTypeId": 1,
+         "answer": "",
+         "options": [
+            {
+               "id": 1203,
+               "questionId": 2051,
+               "name": "A. Write a script that deletes old records; schedule the scripts as a cron job on an Amazon EC2instance.",
+               "isAnswer": false
+            },
+            {
+               "id": 1204,
+               "questionId": 2051,
+               "name": "B. Add an attribute with the expiration time; enable the Time To Live feature based on that attribute.",
+               "isAnswer": true
+            },
+            {
+               "id": 1205,
+               "questionId": 2051,
+               "name": "C. Each day, create a new table to hold session data; delete the previous day's table.",
+               "isAnswer": false
+            },
+            {
+               "id": 1206,
+               "questionId": 2051,
+               "name": "D. Add an attribute with the expiration time; name the attribute ItemExpiration.",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2052,
+         "name": "NO.312 A Development team currently supports an application that uses an in-memory store tosave accumulated game results. Individual results are stored in a database. As part of migrating toAWS, the team needs to use automatic scaling. The team knows this will yield inconsistent results.Where should the team store these accumulated game results to BEST allow for consistent resultswithout impacting performance?",
+         "questionTypeId": 1,
+         "answer": "",
+         "options": [
+            {
+               "id": 1207,
+               "questionId": 2052,
+               "name": "A. Amazon S3",
+               "isAnswer": false
+            },
+            {
+               "id": 1208,
+               "questionId": 2052,
+               "name": "B. Amazon RDS",
+               "isAnswer": false
+            },
+            {
+               "id": 1209,
+               "questionId": 2052,
+               "name": "C. Amazon ElastiCache",
+               "isAnswer": true
+            },
+            {
+               "id": 1210,
+               "questionId": 2052,
+               "name": "D. Amazon Kinesis",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2053,
+         "name": "NO.313 Which of these is not a Pseudo Parameter in AWS CloudFormation?",
+         "questionTypeId": 1,
+         "answer": "Explanation:This is the complete list of Pseudo Parameters: AWS::AccountId, AWS::NotificationARNs,AWS::NoValue, AWS::Region, AWS::StackId, AWS::StackNamehttp://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/pseudo-parameter-reference.html",
+         "options": [
+            {
+               "id": 1211,
+               "questionId": 2053,
+               "name": "A. AWS::StackName",
+               "isAnswer": false
+            },
+            {
+               "id": 1212,
+               "questionId": 2053,
+               "name": "B. AWS::AccountId",
+               "isAnswer": false
+            },
+            {
+               "id": 1213,
+               "questionId": 2053,
+               "name": "C. AWS::StackArn",
+               "isAnswer": true
+            },
+            {
+               "id": 1214,
+               "questionId": 2053,
+               "name": "D. AWS::NotificationARNs",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2054,
+         "name": "NO.314 A company is using Amazon RDS MySQL instances for its application database tier andApache Tomcat servers for its web tier. Most of the database queries from web applications arerepeated read requests.Use of which AWS service would increase in performance by adding in-memory store for repeatedread queries?",
+         "questionTypeId": 1,
+         "answer": "",
+         "options": [
+            {
+               "id": 1215,
+               "questionId": 2054,
+               "name": "A. Amazon RDS Multi-AZ",
+               "isAnswer": true
+            },
+            {
+               "id": 1216,
+               "questionId": 2054,
+               "name": "B. Amazon SQS",
+               "isAnswer": false
+            },
+            {
+               "id": 1217,
+               "questionId": 2054,
+               "name": "C. Amazon ElastiCache",
+               "isAnswer": false
+            },
+            {
+               "id": 1218,
+               "questionId": 2054,
+               "name": "D. Amazon RDS read replica",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2055,
+         "name": "NO.315 A Developer wants to find a list of items in a global secondary index from an AmazonDynamoDB table. Which DynamoDB API call can the Developer use in order to consume the LEASTnumber of read capacity units?",
+         "questionTypeId": 1,
+         "answer": "",
+         "options": [
+            {
+               "id": 1219,
+               "questionId": 2055,
+               "name": "A. Scan operation using eventually-consistent reads",
+               "isAnswer": false
+            },
+            {
+               "id": 1220,
+               "questionId": 2055,
+               "name": "B. Query operation using strongly-consistent reads",
+               "isAnswer": false
+            },
+            {
+               "id": 1221,
+               "questionId": 2055,
+               "name": "C. Query operation using eventually-consistent reads",
+               "isAnswer": true
+            },
+            {
+               "id": 1222,
+               "questionId": 2055,
+               "name": "D. Scan operation using strongly-consistent reads",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2056,
+         "name": "NO.316 A user has launched an EC2 instance and installed a website with the Apache webserver.The webserver is running but the user is not able to access the website from the internet. What canbe the possible reason for this failure?",
+         "questionTypeId": 1,
+         "answer": "Explanation:In Amazon Web Services, when a user has configured an instance with Apache, the user needs toensure that the ports in the security group are opened as configured in Apache config. E.g.If Apache is running on port 80, the user should open port 80 in the security group.http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-network-security.html",
+         "options": [
+            {
+               "id": 1223,
+               "questionId": 2056,
+               "name": "A. The security group of the instance is not configured properly.",
+               "isAnswer": true
+            },
+            {
+               "id": 1224,
+               "questionId": 2056,
+               "name": "B. The instance is not configured with the proper key-pairs.",
+               "isAnswer": false
+            },
+            {
+               "id": 1225,
+               "questionId": 2056,
+               "name": "C. The Apache website cannot be accessed from the internet.",
+               "isAnswer": false
+            },
+            {
+               "id": 1226,
+               "questionId": 2056,
+               "name": "D. Instance is not configured with an elastic IP.",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2057,
+         "name": "NO.317 A user is enabling logging on a particular bucket. Which of the below mentioned optionsmay be best suitable to allow access to the log bucket?",
+         "questionTypeId": 1,
+         "answer": "Explanation:The only recommended use case for the S3 bucket ACL is to grant the write permission to theAmazon S3 Log Delivery group to write access log objects to the user's bucket.http://docs.aws.amazon.com/AmazonS3/latest/dev/access-policy-alternatives-guidelines.html",
+         "options": [
+            {
+               "id": 1227,
+               "questionId": 2057,
+               "name": "A. Create an IAM policy and allow log access",
+               "isAnswer": false
+            },
+            {
+               "id": 1228,
+               "questionId": 2057,
+               "name": "B. It is not possible to enable logging on the S3 bucket",
+               "isAnswer": false
+            },
+            {
+               "id": 1229,
+               "questionId": 2057,
+               "name": "C. Create an IAM Role which has access to the log bucket",
+               "isAnswer": false
+            },
+            {
+               "id": 1230,
+               "questionId": 2057,
+               "name": "D. Provide ACL for the logging group",
+               "isAnswer": true
+            }
+         ]
+      },
+      {
+         "id": 2058,
+         "name": "NO.318 An application on AWS is using third-party APIs. The Developer needs to monitor API errorsin the code, and wants to receive notifications if failures go above a set threshold value.How can the Developer achieve these requirements?",
+         "questionTypeId": 1,
+         "answer": "",
+         "options": [
+            {
+               "id": 1231,
+               "questionId": 2058,
+               "name": "A. Publish a custom metric on Amazon CloudWatch and use Amazon SES for notification.",
+               "isAnswer": false
+            },
+            {
+               "id": 1232,
+               "questionId": 2058,
+               "name": "B. Use an Amazon CloudWatch API-error metric and use Amazon SNS for notification.",
+               "isAnswer": false
+            },
+            {
+               "id": 1233,
+               "questionId": 2058,
+               "name": "C. Use an Amazon CloudWatch API-error metric and use Amazon SES for notification.",
+               "isAnswer": false
+            },
+            {
+               "id": 1234,
+               "questionId": 2058,
+               "name": "D. Publish a custom metric on Amazon CloudWatch and use Amazon SNS for notification.",
+               "isAnswer": true
+            }
+         ]
+      },
+      {
+         "id": 2059,
+         "name": "NO.319 An organization is setting up their website on AWS. The organization is working on varioussecurity measures to be performed on the AWS EC2 instances. Which of the below mentionedsecurity mechanisms will not help the organization to avoid future data leaks and identify securityweaknesses?",
+         "questionTypeId": 1,
+         "answer": "Explanation:AWS security follows the shared security model where the user is as much responsible as Amazon.Since Amazon is a public cloud it is bound to be targeted by hackers. If an organization is planning tohost their application on AWS EC2, they should perform the below mentioned security checks as ameasure to find any security weakness/data leaks:Perform penetration testing as performed by attackers to find any vulnerability. The organizationmust take an approval from AWS before performing penetration testing Perform hardening testing tofind if there are any unnecessary ports open Perform SQL injection to find any DB security issues Thecode memory checks are generally useful when the organization wants to improve the applicationperformance.http://aws.amazon.com/security/penetration-testing/",
+         "options": [
+            {
+               "id": 1235,
+               "questionId": 2059,
+               "name": "A. Perform SQL injection for application testing.",
+               "isAnswer": false
+            },
+            {
+               "id": 1236,
+               "questionId": 2059,
+               "name": "B. Run penetration testing on AWS with prior approval from Amazon.",
+               "isAnswer": false
+            },
+            {
+               "id": 1237,
+               "questionId": 2059,
+               "name": "C. Perform a hardening test on the AWS instance.",
+               "isAnswer": false
+            },
+            {
+               "id": 1238,
+               "questionId": 2059,
+               "name": "D. Perform a Code Check for any memory leaks.",
+               "isAnswer": true
+            }
+         ]
+      },
+      {
+         "id": 2060,
+         "name": "NO.320 A Developer created a Lambda function for a web application backend. When testing theLambda function from the AWS Lambda console, the Developer can see that the function is beingexecuted, but there is no log data being generated in Amazon CloudWatch Logs, even after severalminutes.What could cause this situation?",
+         "questionTypeId": 1,
+         "answer": "Explanation:https://docs.aws.amazon.com/lambda/latest/dg/monitoring-functions.html (see note)",
+         "options": [
+            {
+               "id": 1239,
+               "questionId": 2060,
+               "name": "A. The Lambda function does not have any explicit log statements for the log data to send it toCloudWatch Logs.",
+               "isAnswer": false
+            },
+            {
+               "id": 1240,
+               "questionId": 2060,
+               "name": "B. The Lambda function is missing CloudWatch Logs as a source trigger to send log data.",
+               "isAnswer": false
+            },
+            {
+               "id": 1241,
+               "questionId": 2060,
+               "name": "C. The execution role for the Lambda function is missing permissions to write log data to theCloudWatch Logs.",
+               "isAnswer": true
+            },
+            {
+               "id": 1242,
+               "questionId": 2060,
+               "name": "D. The Lambda function is missing a target CloudWatch Log group.",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2061,
+         "name": "NO.321 A user has launched an RDS instance. The user has created 3 databases on the same server.What can the maximum size be for each database?",
+         "questionTypeId": 1,
+         "answer": "Explanation:The AWS RDS DB instance is an isolated DB environment provided by AWS in which the user cancreate more than 1 database. The maximum size of the instance should be between 5 GB and 3 TB.The size of each DB can be anything in this range.http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html",
+         "options": [
+            {
+               "id": 1243,
+               "questionId": 2061,
+               "name": "A. The size of each DB cannot be more than 3 TB",
+               "isAnswer": false
+            },
+            {
+               "id": 1244,
+               "questionId": 2061,
+               "name": "B. It is not possible to have more than one DB on a single instance",
+               "isAnswer": false
+            },
+            {
+               "id": 1245,
+               "questionId": 2061,
+               "name": "C. The total instance storage size cannot be more than 3 TB",
+               "isAnswer": true
+            },
+            {
+               "id": 1246,
+               "questionId": 2061,
+               "name": "D. The size of each DB cannot be more than 1 TB",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2062,
+         "name": "NO.322 A user has created a MySQL RDS instance. Which of the below mentioned options ismandatory to configure while creating an instance?",
+         "questionTypeId": 1,
+         "answer": "Explanation:When creating an RDS instance, the user needs to specify whether it is Multi AZ or not. If the userdoes not provide the value for the zone, the maintenance window or automated backup window,RDS will automatically select the value.http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.MultiAZ.html",
+         "options": [
+            {
+               "id": 1247,
+               "questionId": 2062,
+               "name": "A. Multi AZ deployment setup",
+               "isAnswer": true
+            },
+            {
+               "id": 1248,
+               "questionId": 2062,
+               "name": "B. Automated backup window",
+               "isAnswer": false
+            },
+            {
+               "id": 1249,
+               "questionId": 2062,
+               "name": "C. Availability Zone",
+               "isAnswer": false
+            },
+            {
+               "id": 1250,
+               "questionId": 2062,
+               "name": "D. Maintenance window",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2063,
+         "name": "NO.323 An organization has 10000 employees. The organization wants to give restricted AWS accessto each employee. How can the organization achieve this?",
+         "questionTypeId": 1,
+         "answer": "Explanation:Identity federation enables users from an existing directory to access resources within your AWSaccount, making it easier to manage your users by maintaining their identities in a single place.In this case, the federated user is the only solution since AWS does not allow creating more than5000 IAM users.http://docs.aws.amazon.com/IAM/latest/UserGuide/LimitationsOnEntities.html",
+         "options": [
+            {
+               "id": 1251,
+               "questionId": 2063,
+               "name": "A. Create an IAM user for each employee and make them a part of the group",
+               "isAnswer": false
+            },
+            {
+               "id": 1252,
+               "questionId": 2063,
+               "name": "B. It is not recommended to support 10000 users with IAM",
+               "isAnswer": false
+            },
+            {
+               "id": 1253,
+               "questionId": 2063,
+               "name": "C. Use STS and create the users' run time",
+               "isAnswer": false
+            },
+            {
+               "id": 1254,
+               "questionId": 2063,
+               "name": "D. Use Identity federation with SSO",
+               "isAnswer": true
+            }
+         ]
+      },
+      {
+         "id": 2064,
+         "name": "NO.324 A Developer is building a web application that uses Amazon API Gateway to expose an AWSLambda function to process requests from clients. During testing, the Developer notices that the APIGateway times out even though the Lambda function finishes under the set time limit.Which of the following API Gateway metrics in Amazon CloudWatch can help the Developertroubleshoot the issue? (Choose two.)",
+         "questionTypeId": 2,
+         "answer": "",
+         "options": [
+            {
+               "id": 1255,
+               "questionId": 2064,
+               "name": "A. CacheHitCount",
+               "isAnswer": true
+            },
+            {
+               "id": 1256,
+               "questionId": 2064,
+               "name": "B. IntegrationLatency",
+               "isAnswer": false
+            },
+            {
+               "id": 1257,
+               "questionId": 2064,
+               "name": "C. CacheMissCount",
+               "isAnswer": false
+            },
+            {
+               "id": 1258,
+               "questionId": 2064,
+               "name": "D. Latency",
+               "isAnswer": true
+            },
+            {
+               "id": 1259,
+               "questionId": 2064,
+               "name": "E. Count",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2065,
+         "name": "NO.325 Company B is launching a new game app for mobile devices. Users will log into the gameusing their existing social media account to streamline data capture. Company B would like to directlysave player data and scoring information from the mobile app to a DynamoDB table named ScoreData When a user saves their game the progress data will be stored to the Game state S3 bucket.what is the best approach for storing data to DynamoDB and S3?",
+         "questionTypeId": 1,
+         "options": [
+            {
+               "id": 1260,
+               "questionId": 2065,
+               "name": "A. Use an EC2 Instance that is launched with an EC2 role providing access to the Score DataDynamoDB table and the GameState S3 bucket that communicates with the mobile app via webservices.",
+               "isAnswer": false
+            },
+            {
+               "id": 1261,
+               "questionId": 2065,
+               "name": "B. Use temporary security credentials that assume a role providing access to the Score DataDynamoDB table and the Game State S3 bucket using web identity federation",
+               "isAnswer": true
+            },
+            {
+               "id": 1262,
+               "questionId": 2065,
+               "name": "C. Use Login with Amazon allowing users to sign in with an Amazon account providing the mobile appwith access to the Score Data DynamoDB table and the Game State S3 bucket.",
+               "isAnswer": false
+            },
+            {
+               "id": 1263,
+               "questionId": 2065,
+               "name": "D. Use an IAM user with access credentials assigned a role providing access to the Score DataDynamoDB table and the Game State S3 bucket for distribution with the mobile app.",
+               "isAnswer": false
+            }
+         ]
+      }
+   ]
+}

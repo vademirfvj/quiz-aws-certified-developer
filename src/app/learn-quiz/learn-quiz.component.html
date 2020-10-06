@@ -32,7 +32,7 @@
 	<div *ngIf="check">
 		<div class="p-1 m-2 alert {{ isCorrect(question) == 'correct'? 'alert-success': 'alert-danger'}}">Your answer is {{isCorrect(question)}}.</div>
 
-		<div class="p-1 m-2 alert alert-warning">Resposta: {{question.answer}}.</div>
+		<div class="p-1 m-2 alert alert-warning">{{question.answer}}.</div>
 	</div>
     </div>
     <hr />

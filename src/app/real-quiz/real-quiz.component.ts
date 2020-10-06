@@ -42,6 +42,9 @@ export class RealQuizComponent implements OnInit {
 
   time: boolean;
 
+  countCorrect: number;
+  porcent: number;
+
   constructor(private quizService: QuizService, private route: ActivatedRoute) { }
 
   ngOnInit() {
@@ -49,6 +52,7 @@ export class RealQuizComponent implements OnInit {
     this.quizName = this.quizes[0].id;
     this.loadQuiz(this.quizName);
     this.time = Boolean(JSON.parse(this.route.snapshot.params['time']));
+    this.countCorrect = 0;
     
   }
 
@@ -94,14 +98,18 @@ export class RealQuizComponent implements OnInit {
     }
 
     if (this.config.autoMove) {
-      this.goTo(this.pager.index + 1);
+      this.goTo(this.pager.index + 1,question);
     }
   }
 
-  goTo(index: number) {
+  goTo(index: number,question: Question) {
     if (index >= 0 && index < this.pager.count) {
       this.pager.index = index;
       this.mode = 'quiz';
+    }else{
+      if(question.options.every(x => x.selected === x.isAnswer)){
+            this.countCorrect = this.countCorrect +1;
+      }
     }
   }
 
@@ -120,6 +128,13 @@ export class RealQuizComponent implements OnInit {
     // Post your data to the server here. answers contains the questionId and the users' answer.
     console.log(this.quiz.questions);
     this.mode = 'result';
+
+    this.quiz.questions.forEach(x => 
+      {if(this.isCorrect(x) === 'correct' ){
+        this.countCorrect = this.countCorrect +1;
+      }});
+
+    this.porcent = this.countCorrect*100/this.pager.count;
   }
 
 }

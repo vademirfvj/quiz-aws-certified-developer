@@ -46,6 +46,29 @@
     </div>
   </div>
   <div class="result" *ngIf="mode=='result'">
+
+   <div class="col-sm-6 col-md-12">
+    <div class="card card-accent-primary">
+      <div class="card-header">
+        Resultado
+      </div>
+
+      <div class="card-body">
+        Total de Acertos: <b>{{countCorrect}}</b>
+        <hr />
+        Porcentagem de Acertos: <b>{{porcent}} %</b>
+        <hr />
+        Resultado: <b>{{porcent >= 20? 'Pass': 'Not Pass' }}</b>
+      </div>
+
+
+    </div><!--/.col-->
+  </div>
+
+  <hr />
+
+  <h4 class="alert alert-info text-center">Para refazer o teste, volte a 
+    <a href="#">página inicial</a>.</h4>
     <h2>Quiz Result</h2>
     <div *ngFor="let question of quiz.questions; let index = index">
       <div class="result-question">
@@ -60,11 +83,11 @@
     </div>
     <h4 class="alert alert-info text-center">Para refazer o teste, volte a 
       <a href="#">página inicial</a>.</h4>
+    </div>
+    <hr />
+    <div *ngIf="mode!='result'">
+      <button class="btn btn-warning" (click)="mode = 'quiz'">Quiz</button>
+      <button class="btn btn-info" (click)="mode = 'review'">Review</button>
+      <button class="btn btn-primary" (click)="onSubmit();">Submit Quiz</button>
+    </div>
   </div>
-  <hr />
-  <div *ngIf="mode!='result'">
-    <button class="btn btn-warning" (click)="mode = 'quiz'">Quiz</button>
-    <button class="btn btn-info" (click)="mode = 'review'">Review</button>
-    <button class="btn btn-primary" (click)="onSubmit();">Submit Quiz</button>
-  </div>
-</div>
