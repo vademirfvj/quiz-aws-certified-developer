@@ -98,18 +98,14 @@ export class RealQuizComponent implements OnInit {
     }
 
     if (this.config.autoMove) {
-      this.goTo(this.pager.index + 1,question);
+      this.goTo(this.pager.index + 1);
     }
   }
 
-  goTo(index: number,question: Question) {
+  goTo(index: number) {
     if (index >= 0 && index < this.pager.count) {
       this.pager.index = index;
       this.mode = 'quiz';
-    }else{
-      if(question.options.every(x => x.selected === x.isAnswer)){
-            this.countCorrect = this.countCorrect +1;
-      }
     }
   }
 

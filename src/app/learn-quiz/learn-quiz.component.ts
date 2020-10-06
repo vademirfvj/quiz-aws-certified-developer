@@ -87,7 +87,7 @@ export class LearnQuizComponent implements OnInit {
     return question.options.every(x => x.selected === x.isAnswer) ? 'correct' : 'wrong';
   };
 
-  checkAnswer(question: Question){
+  checkAnswer(){
   	this.check = true;
   }
 
