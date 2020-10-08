@@ -1,2102 +1,2102 @@
 {
-   "id": 1,
+   "id": 7,
    "name": "Quiz - AWS Certificate",
    "description": "Quiz 7",
    "questions": [
       {
          "id": 2001,
-         "name": "NO.391 _____________ can be used to bootstrap both the Chef Server and Chef Client software onyour EC2 instances.",
+         "name": " NO.392 What is the maximum number of tags that a user can assign to an EC2 instance?",
          "questionTypeId": 1,
-         "answer": "Explanation:AWS CloudFormation can be used to bootstrap both the Chef Server and Chef Client software onyour EC2 instances.http://aws.amazon.com/cloudformation/faqs/",
+         "answer": " Explanation: To help manage EC2 instances as well as their usage in a better way, the user can tag the instances. The tags are metadata assigned by the user which consists of a key and a value. One resource can have a maximum of 10 tags. http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Using_Tags.html ",
          "options": [
             {
                "id": 1000,
                "questionId": 2001,
-               "name": "A. AWS CloudFormation",
-               "isAnswer": true
-            },
-            {
-               "id": 1001,
-               "questionId": 2001,
-               "name": "B. AWS Elastic Beanstalk",
-               "isAnswer": false
-            },
-            {
-               "id": 1002,
-               "questionId": 2001,
-               "name": "C. AWS OpsWorks",
-               "isAnswer": false
-            },
-            {
-               "id": 1003,
-               "questionId": 2001,
-               "name": "D. Amazon Glacier",
-               "isAnswer": false
-            }
-         ]
-      },
-      {
-         "id": 2002,
-         "name": "NO.392 What is the maximum number of tags that a user can assign to an EC2 instance?",
-         "questionTypeId": 1,
-         "answer": "Explanation:To help manage EC2 instances as well as their usage in a better way, the user can tag the instances.The tags are metadata assigned by the user which consists of a key and a value.One resource can have a maximum of 10 tags.http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Using_Tags.html",
-         "options": [
-            {
-               "id": 1004,
-               "questionId": 2002,
                "name": "A. 50",
                "isAnswer": false
             },
             {
-               "id": 1005,
-               "questionId": 2002,
-               "name": "B. 10C. 5",
+               "id": 1001,
+               "questionId": 2001,
+               "name": "B. 10 C. 5     ",
                "isAnswer": true
             },
             {
-               "id": 1006,
-               "questionId": 2002,
+               "id": 1002,
+               "questionId": 2001,
                "name": "D. 25",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2003,
-         "name": "NO.393 A Developer is working on an application that tracks hundreds of millions of product reviewsin an Amazon DynamoDB table. The records include the data elements shown in the table:Which field, when used as the partition key, would result in the MOST consistent performance usingDynamoDB?",
+         "id": 2002,
+         "name": " NO.393 A Developer is working on an application that tracks hundreds of millions of product reviews in an Amazon DynamoDB table. The records include the data elements shown in the table: Which field, when used as the partition key, would result in the MOST consistent performance using DynamoDB?",
          "questionTypeId": 1,
-         "answer": "",
+         "answer": " ",
          "options": [
             {
-               "id": 1007,
-               "questionId": 2003,
+               "id": 1003,
+               "questionId": 2002,
                "name": "A. starRating",
                "isAnswer": false
             },
             {
-               "id": 1008,
-               "questionId": 2003,
+               "id": 1004,
+               "questionId": 2002,
                "name": "B. reviewID",
                "isAnswer": true
             },
             {
-               "id": 1009,
-               "questionId": 2003,
+               "id": 1005,
+               "questionId": 2002,
                "name": "C. comment",
                "isAnswer": false
             },
             {
-               "id": 1010,
-               "questionId": 2003,
+               "id": 1006,
+               "questionId": 2002,
                "name": "D. productID",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2004,
-         "name": "NO.394 In regard to DynamoDB, can I modify the index once it is created?",
+         "id": 2003,
+         "name": " NO.394 In regard to DynamoDB, can I modify the index once it is created?",
          "questionTypeId": 1,
-         "answer": "Explanation:Currently, in DynamoDB, an index cannot be modified once it is created.http://aws.amazon.com/dynamodb/faqs/#security_anchor",
+         "answer": " Explanation: Currently, in DynamoDB, an index cannot be modified once it is created. http://aws.amazon.com/dynamodb/faqs/#security_anchor ",
          "options": [
             {
-               "id": 1011,
-               "questionId": 2004,
+               "id": 1007,
+               "questionId": 2003,
                "name": "A. Yes, if it is a primary hash key index",
                "isAnswer": false
             },
             {
-               "id": 1012,
-               "questionId": 2004,
+               "id": 1008,
+               "questionId": 2003,
                "name": "B. Yes, if it is a Global secondary index",
                "isAnswer": false
             },
             {
-               "id": 1013,
-               "questionId": 2004,
+               "id": 1009,
+               "questionId": 2003,
                "name": "C. No",
                "isAnswer": true
             },
             {
-               "id": 1014,
-               "questionId": 2004,
+               "id": 1010,
+               "questionId": 2003,
                "name": "D. Yes, if it is a local secondary index",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2005,
-         "name": "NO.395 A customer wants to deploy its source code on an AWS Elastic Beanstalk environment. Thecustomer needs to perform deployment with minimal outage and should only use existing instancesto retain application access log.What deployment policy would satisfy these requirements?",
+         "id": 2004,
+         "name": " NO.395 A customer wants to deploy its source code on an AWS Elastic Beanstalk environment. The customer needs to perform deployment with minimal outage and should only use existing instances to retain application access log. What deployment policy would satisfy these requirements?",
          "questionTypeId": 1,
-         "answer": "",
+         "answer": " ",
          "options": [
             {
-               "id": 1015,
-               "questionId": 2005,
+               "id": 1011,
+               "questionId": 2004,
                "name": "A. Rolling",
                "isAnswer": true
             },
             {
-               "id": 1016,
-               "questionId": 2005,
+               "id": 1012,
+               "questionId": 2004,
                "name": "B. All at once",
                "isAnswer": false
             },
             {
-               "id": 1017,
-               "questionId": 2005,
+               "id": 1013,
+               "questionId": 2004,
                "name": "C. Rolling with an additional batch",
                "isAnswer": false
             },
             {
-               "id": 1018,
-               "questionId": 2005,
+               "id": 1014,
+               "questionId": 2004,
                "name": "D. Immutable",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2006,
-         "name": "NO.396 When developing an AWS Lambda function that processes Amazon Kinesis Data Streams,Administrators within the company must receive a notice that includes the processed data.How should the Developer write the function to send processed data to the Administrators?",
+         "id": 2005,
+         "name": " NO.396 When developing an AWS Lambda function that processes Amazon Kinesis Data Streams, Administrators within the company must receive a notice that includes the processed data. How should the Developer write the function to send processed data to the Administrators?",
          "questionTypeId": 1,
-         "answer": "",
+         "answer": " ",
          "options": [
             {
-               "id": 1019,
-               "questionId": 2006,
+               "id": 1015,
+               "questionId": 2005,
                "name": "A. Separate the Lambda handler from the core logic",
                "isAnswer": false
             },
             {
-               "id": 1020,
-               "questionId": 2006,
+               "id": 1016,
+               "questionId": 2005,
                "name": "B. Use Amazon CloudWatch Events to send the processed data",
                "isAnswer": true
             },
             {
-               "id": 1021,
-               "questionId": 2006,
+               "id": 1017,
+               "questionId": 2005,
                "name": "C. Publish the processed data to an Amazon SNS topic",
                "isAnswer": false
             },
             {
-               "id": 1022,
-               "questionId": 2006,
+               "id": 1018,
+               "questionId": 2005,
                "name": "D. Push the processed data to Amazon SQS",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2007,
-         "name": "NO.397 A Developer created configuration specifications for an AWS Elastic Beanstalk application ina file named healthcheckurl.yaml in the .ebextensions/directory of their application source bundle.The file contains the following:After the application launches, the health check is not being run on the correct path, event though itis valid.What can be done to correct this configuration file?",
+         "id": 2006,
+         "name": " NO.397 A Developer created configuration specifications for an AWS Elastic Beanstalk application in a file named healthcheckurl.yaml in the .ebextensions/directory of their application source bundle. The file contains the following: After the application launches, the health check is not being run on the correct path, event though it is valid. What can be done to correct this configuration file?",
          "questionTypeId": 1,
-         "answer": "",
+         "answer": " ",
          "options": [
             {
-               "id": 1023,
-               "questionId": 2007,
+               "id": 1019,
+               "questionId": 2006,
                "name": "A. Convert the file to JSON format.",
                "isAnswer": false
             },
             {
-               "id": 1024,
-               "questionId": 2007,
+               "id": 1020,
+               "questionId": 2006,
                "name": "B. Rename the file to a .config extension.",
                "isAnswer": false
             },
             {
-               "id": 1025,
-               "questionId": 2007,
+               "id": 1021,
+               "questionId": 2006,
                "name": "C. Change the configuration section from options_settings to resources.",
                "isAnswer": true
             },
             {
-               "id": 1026,
-               "questionId": 2007,
+               "id": 1022,
+               "questionId": 2006,
                "name": "D. Change the namespace of the option settings to a cusom namespace.",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2008,
-         "name": "NO.398 An AWS customer is deploying a web application that is composed of a front-end running onAmazon EC2 and of confidential data that is stored on Amazon S3. The customer security policy thatall access operations to this sensitive data must be authenticated and authorized by a centralizedaccess management system that is operated by a separate security team. In addition, the webapplication team that owns and administers the EC2 web front-end instances is prohibited fromhaving any ability to access the data that circumvents this centralized access management system.Which of the following configurations will support these requirements?",
+         "id": 2007,
+         "name": " NO.398 An AWS customer is deploying a web application that is composed of a front-end running on Amazon EC2 and of confidential data that is stored on Amazon S3. The customer security policy that all access operations to this sensitive data must be authenticated and authorized by a centralized access management system that is operated by a separate security team. In addition, the web application team that owns and administers the EC2 web front-end instances is prohibited from having any ability to access the data that circumvents this centralized access management system. Which of the following configurations will support these requirements?",
          "questionTypeId": 1,
-         "answer": "",
+         "answer": " ",
          "options": [
             {
-               "id": 1027,
-               "questionId": 2008,
-               "name": "A. Encrypt the data on Amazon S3 using a CloudHSM that is operated by the separate security team.Configure the web application to integrate with the CloudHSM for decrypting approved data accessoperations for trusted end-users.",
+               "id": 1023,
+               "questionId": 2007,
+               "name": "A. Encrypt the data on Amazon S3 using a CloudHSM that is operated by the separate security team. Configure the web application to integrate with the CloudHSM for decrypting approved data access operations for trusted end-users.",
                "isAnswer": false
             },
             {
-               "id": 1028,
-               "questionId": 2008,
-               "name": "B. Configure the web application to authenticate end-users against the centralized accessmanagement system. Have the web application provision trusted users STS tokens entitling thedownload of approved data directly from Amazon S3",
+               "id": 1024,
+               "questionId": 2007,
+               "name": "B. Configure the web application to authenticate end-users against the centralized access management system. Have the web application provision trusted users STS tokens entitling the download of approved data directly from Amazon S3",
                "isAnswer": true
             },
             {
-               "id": 1029,
-               "questionId": 2008,
-               "name": "C. Have the separate security team create and IAM role that is entitled to access the data on AmazonS3. Have the web application team provision their instances with this role while denying their IAMusers access to the data on Amazon S3",
+               "id": 1025,
+               "questionId": 2007,
+               "name": "C. Have the separate security team create and IAM role that is entitled to access the data on Amazon S3. Have the web application team provision their instances with this role while denying their IAM users access to the data on Amazon S3",
                "isAnswer": false
             },
             {
-               "id": 1030,
-               "questionId": 2008,
-               "name": "D. Configure the web application to authenticate end-users against the centralized accessmanagement system using SAML. Have the end-users authenticate to IAM using their SAML tokenand download the approved data directly from S3.",
+               "id": 1026,
+               "questionId": 2007,
+               "name": "D. Configure the web application to authenticate end-users against the centralized access management system using SAML. Have the end-users authenticate to IAM using their SAML token     and download the approved data directly from S3.",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2009,
-         "name": "NO.399 How can software determine the public and private IP addresses of the Amazon EC2instance that it is running on?",
+         "id": 2008,
+         "name": " NO.399 How can software determine the public and private IP addresses of the Amazon EC2 instance that it is running on?",
          "questionTypeId": 1,
-         "answer": "",
+         "answer": " ",
          "options": [
             {
-               "id": 1031,
-               "questionId": 2009,
+               "id": 1027,
+               "questionId": 2008,
                "name": "A. Query the appropriate Amazon CloudWatch metric.",
                "isAnswer": false
             },
             {
-               "id": 1032,
-               "questionId": 2009,
+               "id": 1028,
+               "questionId": 2008,
                "name": "B. Use ipconfig or ifconfig command.",
                "isAnswer": false
             },
             {
-               "id": 1033,
-               "questionId": 2009,
+               "id": 1029,
+               "questionId": 2008,
                "name": "C. Query the local instance userdata.",
                "isAnswer": false
             },
             {
-               "id": 1034,
-               "questionId": 2009,
+               "id": 1030,
+               "questionId": 2008,
                "name": "D. Query the local instance metadata.",
                "isAnswer": true
             }
          ]
       },
       {
-         "id": 2010,
-         "name": "NO.400 A Developer writes an AWS Lambda function and uploads the code in a .ZIP file to AmazonThe Developer makes changes to the code and uploads a new .ZIP file to Amazon S3. However,Lambda executes the earlier code.How can the Developer fix this in the LEAST disruptive way?",
+         "id": 2009,
+         "name": " NO.400 A Developer writes an AWS Lambda function and uploads the code in a .ZIP file to Amazon The Developer makes changes to the code and uploads a new .ZIP file to Amazon S3. However, Lambda executes the earlier code. How can the Developer fix this in the LEAST disruptive way?",
          "questionTypeId": 1,
-         "answer": "",
+         "answer": " ",
          "options": [
             {
-               "id": 1035,
-               "questionId": 2010,
+               "id": 1031,
+               "questionId": 2009,
                "name": "A. Create another Lambda function and specify the new .ZIP file.",
                "isAnswer": false
             },
             {
-               "id": 1036,
-               "questionId": 2010,
+               "id": 1032,
+               "questionId": 2009,
                "name": "B. Call the update-function-code API.",
                "isAnswer": true
             },
             {
-               "id": 1037,
-               "questionId": 2010,
+               "id": 1033,
+               "questionId": 2009,
                "name": "C. Remove the earlier .ZIP file first, then add the new .ZIP file.",
                "isAnswer": false
             },
             {
-               "id": 1038,
-               "questionId": 2010,
+               "id": 1034,
+               "questionId": 2009,
                "name": "D. Call the create-alias API.",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2011,
-         "name": "NO.401 A social media company is using Amazon Cognito in order to synchronize profiles acrossdifferent mobile devices, to enable end users to have a seamless experience.Which of the following configurations can be used to silently notify users whenever an update isavailable on all other devices?",
+         "id": 2010,
+         "name": " NO.401 A social media company is using Amazon Cognito in order to synchronize profiles across different mobile devices, to enable end users to have a seamless experience. Which of the following configurations can be used to silently notify users whenever an update is available on all other devices?",
          "questionTypeId": 1,
-         "answer": "",
+         "answer": " ",
          "options": [
             {
-               "id": 1039,
-               "questionId": 2011,
+               "id": 1035,
+               "questionId": 2010,
                "name": "A. Modify the user pool to include all the devices which keep them in sync.",
                "isAnswer": false
             },
             {
-               "id": 1040,
-               "questionId": 2011,
+               "id": 1036,
+               "questionId": 2010,
                "name": "B. Use the SyncCallback interface to receive notifications on the application.",
                "isAnswer": false
             },
             {
-               "id": 1041,
-               "questionId": 2011,
+               "id": 1037,
+               "questionId": 2010,
                "name": "C. Use an Amazon Cognito stream to analyze the data and push the notifications.",
                "isAnswer": true
             },
             {
-               "id": 1042,
-               "questionId": 2011,
+               "id": 1038,
+               "questionId": 2010,
                "name": "D. Use the push synchronization feature with the appropriate IAM role.",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2012,
-         "name": "NO.402 A user is creating an ELB with VPC. Which of the following options is available as a part of\"Add EC2 instances\" page?",
+         "id": 2011,
+         "name": " NO.402 A user is creating an ELB with VPC. Which of the following options is available as a part of \"Add EC2 instances\" page?",
          "questionTypeId": 1,
-         "answer": "Explanation:When a user is launching an ELB with VPC, he/she has to select the options, such as subnet andsecurity group before selecting the instances part of that subnet.http://docs.aws.amazon.com/ElasticLoadBalancing/latest/DeveloperGuide/elb-getting-started.html",
+         "answer": " Explanation: When a user is launching an ELB with VPC, he/she has to select the options, such as subnet and security group before selecting the instances part of that subnet. http://docs.aws.amazon.com/ElasticLoadBalancing/latest/DeveloperGuide/elb-getting-started.html      ",
          "options": [
             {
-               "id": 1043,
-               "questionId": 2012,
+               "id": 1039,
+               "questionId": 2011,
                "name": "A. Select Subnet",
                "isAnswer": true
             },
             {
-               "id": 1044,
-               "questionId": 2012,
+               "id": 1040,
+               "questionId": 2011,
                "name": "B. Select IAM",
                "isAnswer": false
             },
             {
-               "id": 1045,
-               "questionId": 2012,
+               "id": 1041,
+               "questionId": 2011,
                "name": "C. Select ENI",
                "isAnswer": false
             },
             {
-               "id": 1046,
-               "questionId": 2012,
+               "id": 1042,
+               "questionId": 2011,
                "name": "D. Select VPC",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2013,
-         "name": "NO.403 After installing the AWS CLI, a Developer tries to run the command aws configure butreceives the following error:Error: aws: command not foundWhat is the most likely cause of this error?",
+         "id": 2012,
+         "name": " NO.403 After installing the AWS CLI, a Developer tries to run the command aws configure but receives the following error: Error: aws: command not found What is the most likely cause of this error?",
          "questionTypeId": 1,
-         "answer": "",
+         "answer": " ",
          "options": [
             {
-               "id": 1047,
-               "questionId": 2013,
+               "id": 1043,
+               "questionId": 2012,
                "name": "A. The aws executable is not in the PATH environment variable.",
                "isAnswer": false
             },
             {
-               "id": 1048,
-               "questionId": 2013,
+               "id": 1044,
+               "questionId": 2012,
                "name": "B. Access to the aws executable has been denied to the installer.",
                "isAnswer": false
             },
             {
-               "id": 1049,
-               "questionId": 2013,
+               "id": 1045,
+               "questionId": 2012,
                "name": "C. Incorrect AWS credentials were provided.",
                "isAnswer": false
             },
             {
-               "id": 1050,
-               "questionId": 2013,
+               "id": 1046,
+               "questionId": 2012,
                "name": "D. The aws script does not have an executable file mode.",
                "isAnswer": true
             }
          ]
       },
       {
-         "id": 2014,
-         "name": "NO.404 A company uses Amazon DynamoDB for managing and tracking orders. The DynamoDBtable is partitioned based on the order date. The company receives a huge increase in orders during asales event, causing DynamoDB writes to throttle, and the consumed throughput is far below theprovisioned throughput.According to AWS best practices, how can this issue be resolved with MINIMAL costs?",
+         "id": 2013,
+         "name": " NO.404 A company uses Amazon DynamoDB for managing and tracking orders. The DynamoDB table is partitioned based on the order date. The company receives a huge increase in orders during a sales event, causing DynamoDB writes to throttle, and the consumed throughput is far below the provisioned throughput. According to AWS best practices, how can this issue be resolved with MINIMAL costs?",
          "questionTypeId": 1,
-         "answer": "",
+         "answer": " ",
          "options": [
             {
-               "id": 1051,
-               "questionId": 2014,
+               "id": 1047,
+               "questionId": 2013,
                "name": "A. Create a new DynamoDB table for every order date.",
                "isAnswer": false
             },
             {
-               "id": 1052,
-               "questionId": 2014,
+               "id": 1048,
+               "questionId": 2013,
                "name": "B. Increase the read and write capacity units of the DynamoDB table.",
                "isAnswer": true
             },
             {
-               "id": 1053,
-               "questionId": 2014,
+               "id": 1049,
+               "questionId": 2013,
                "name": "C. Add a random number suffix to the partition key values.",
                "isAnswer": false
             },
             {
-               "id": 1054,
-               "questionId": 2014,
+               "id": 1050,
+               "questionId": 2013,
                "name": "D. Add a global secondary index to the DynamoDB table.",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2015,
-         "name": "NO.405 A Developer has written a serverless application using multiple AWS services. The businesslogic is written as a Lambda function which has dependencies on third-party libraries. The Lambdafunction endpoints will be exposed using Amazon API Gateway. The Lambda function will write theinformation to Amazon DynamoDB. The Developer is ready to deploy the application but must havethe ability to rollback. How can this deployment be automated, based on these requirements?",
+         "id": 2014,
+         "name": " NO.405 A Developer has written a serverless application using multiple AWS services. The business logic is written as a Lambda function which has dependencies on third-party libraries. The Lambda function endpoints will be exposed using Amazon API Gateway. The Lambda function will write the information to Amazon DynamoDB. The Developer is ready to deploy the application but must have the ability to rollback. How can this deployment be automated, based on these requirements?",
          "questionTypeId": 1,
-         "answer": "Explanation:https://docs.aws.amazon.com/lambda/latest/dg/automating-deployment.html",
+         "answer": " Explanation: https://docs.aws.amazon.com/lambda/latest/dg/automating-deployment.html ",
          "options": [
             {
-               "id": 1055,
-               "questionId": 2015,
-               "name": "A. Deploy using Amazon Lambda API operations to create the Lambda function by providing adeployment package.",
+               "id": 1051,
+               "questionId": 2014,
+               "name": "A. Deploy using Amazon Lambda API operations to create the Lambda function by providing a deployment package.",
                "isAnswer": true
             },
             {
-               "id": 1056,
-               "questionId": 2015,
-               "name": "B. Use an AWS CloudFormation template and use CloudFormation syntax to define the Lambdafunction resource in the template.",
+               "id": 1052,
+               "questionId": 2014,
+               "name": "B. Use an AWS CloudFormation template and use CloudFormation syntax to define the Lambda function resource in the template.",
                "isAnswer": false
             },
             {
-               "id": 1057,
-               "questionId": 2015,
-               "name": "C. Use syntax conforming to the Serverless Application Model in the AWS CloudFormation templateto define the Lambda function resource.",
+               "id": 1053,
+               "questionId": 2014,
+               "name": "C. Use syntax conforming to the Serverless Application Model in the AWS CloudFormation template to define the Lambda function resource.",
                "isAnswer": false
             },
             {
-               "id": 1058,
-               "questionId": 2015,
+               "id": 1054,
+               "questionId": 2014,
                "name": "D. Create a bash script which uses AWS CLI to package and deploy the application.",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2016,
-         "name": "NO.406 A user is planning to use EBS for his DB requirement. The user already has an EC2 instancerunning in the VPC private subnet. How can the user attach the EBS volume to a running instance?",
+         "id": 2015,
+         "name": " NO.406 A user is planning to use EBS for his DB requirement. The user already has an EC2 instance running in the VPC private subnet. How can the user attach the EBS volume to a running instance?",
          "questionTypeId": 1,
-         "answer": "Explanation:A Virtual Private Cloud (VPC) is a virtual network dedicated to the user's AWS account. The user cancreate subnets as per the requirement within a VPC. The VPC is always specific to a region.The user can create a VPC which can span multiple Availability Zones by adding one or more subnetsin each Availability Zone.The instance launched will always be in the same availability zone of the respective subnet.When creating an EBS the user cannot specify the subnet or VPC. However, the user must create theEBS in the same zone as the instance so that it can attach the EBS volume to the running instance.http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Subnets.html#VPCSubnet",
+         "answer": " Explanation: A Virtual Private Cloud (VPC) is a virtual network dedicated to the user's AWS account. The user can create subnets as per the requirement within a VPC. The VPC is always specific to a region. The user can create a VPC which can span multiple Availability Zones by adding one or more subnets in each Availability Zone. The instance launched will always be in the same availability zone of the respective subnet. When creating an EBS the user cannot specify the subnet or VPC. However, the user must create the EBS in the same zone as the instance so that it can attach the EBS volume to the running instance. http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_Subnets.html#VPCSubnet ",
          "options": [
             {
-               "id": 1059,
-               "questionId": 2016,
+               "id": 1055,
+               "questionId": 2015,
                "name": "A. The user must create EBS within the same VPC and then attach it to a running instance.",
                "isAnswer": false
             },
             {
-               "id": 1060,
-               "questionId": 2016,
-               "name": "B. The user can create EBS in the same zone as the subnet of instance and attach that EBS toinstance.",
+               "id": 1056,
+               "questionId": 2015,
+               "name": "B. The user can create EBS in the same zone as the subnet of instance and attach that EBS to instance.",
                "isAnswer": true
             },
             {
-               "id": 1061,
-               "questionId": 2016,
-               "name": "C. It is not possible to attach an EBS to an instance running in VPC until the instance is stopped.",
+               "id": 1057,
+               "questionId": 2015,
+               "name": "C. It is not possible to attach an EBS to an instance running in VPC until the instance is stopped.    ",
                "isAnswer": false
             },
             {
-               "id": 1062,
-               "questionId": 2016,
+               "id": 1058,
+               "questionId": 2015,
                "name": "D. The user can specify the same subnet while creating EBS and then attach it to a running instance.",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2017,
-         "name": "NO.407 It is advised that you watch the Amazon CloudWatch \"_____\" metric (available via the AWSManagement Console or Amazon Cloud Watch APIs) carefully and recreate the Read Replica should itfall behind due to replication errors.",
+         "id": 2016,
+         "name": " NO.407 It is advised that you watch the Amazon CloudWatch \"_____\" metric (available via the AWS Management Console or Amazon Cloud Watch APIs) carefully and recreate the Read Replica should it fall behind due to replication errors.",
          "questionTypeId": 1,
-         "answer": "",
+         "answer": " ",
          "options": [
             {
-               "id": 1063,
-               "questionId": 2017,
+               "id": 1059,
+               "questionId": 2016,
                "name": "A. Write Lag",
                "isAnswer": false
             },
             {
-               "id": 1064,
-               "questionId": 2017,
+               "id": 1060,
+               "questionId": 2016,
                "name": "B. Read Replica",
                "isAnswer": false
             },
             {
-               "id": 1065,
-               "questionId": 2017,
+               "id": 1061,
+               "questionId": 2016,
                "name": "C. Replica Lag",
                "isAnswer": true
             },
             {
-               "id": 1066,
-               "questionId": 2017,
+               "id": 1062,
+               "questionId": 2016,
                "name": "D. Single Replica",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2018,
-         "name": "NO.408 You are building an online store on AWS that uses SQS to process your customer orders.Your backend system needs those messages in the same sequence the customer orders have beenput in. How can you achieve that?",
+         "id": 2017,
+         "name": " NO.408 You are building an online store on AWS that uses SQS to process your customer orders. Your backend system needs those messages in the same sequence the customer orders have been put in. How can you achieve that?",
          "questionTypeId": 1,
-         "answer": "Explanation:Amazon SQS is engineered to always be available and deliver messages. One of the resultingtradeoffs is that SQS does not guarantee first in, first out delivery of messages. For many distributedapplications, each message can stand on its own, and as long as all messages are delivered, the orderis not important. If your system requires that order be preserved, you can place sequencinginformation in each message, so that you can reorder the messages when the queue returns them.",
+         "answer": " Explanation: Amazon SQS is engineered to always be available and deliver messages. One of the resulting tradeoffs is that SQS does not guarantee first in, first out delivery of messages. For many distributed applications, each message can stand on its own, and as long as all messages are delivered, the order is not important. If your system requires that order be preserved, you can place sequencing information in each message, so that you can reorder the messages when the queue returns them. ",
          "options": [
             {
-               "id": 1067,
-               "questionId": 2018,
+               "id": 1063,
+               "questionId": 2017,
                "name": "A. You can do this with SQS but you also need to use SWF",
                "isAnswer": false
             },
             {
-               "id": 1068,
-               "questionId": 2018,
+               "id": 1064,
+               "questionId": 2017,
                "name": "B. Messages will arrive in the same order by default",
                "isAnswer": false
             },
             {
-               "id": 1069,
-               "questionId": 2018,
+               "id": 1065,
+               "questionId": 2017,
                "name": "C. You can use sequencing information on each message",
                "isAnswer": true
             },
             {
-               "id": 1070,
-               "questionId": 2018,
+               "id": 1066,
+               "questionId": 2017,
                "name": "D. It is not possible to do this with SQS",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2019,
-         "name": "NO.409 A user wants to make so that whenever the CPU utilization of the AWS EC2 instance isabove90%, the redlight of his bedroom turns on. Which of the below mentioned AWS services is helpful forthis purpose?",
+         "id": 2018,
+         "name": " NO.409 A user wants to make so that whenever the CPU utilization of the AWS EC2 instance is above 90%, the redlight of his bedroom turns on. Which of the below mentioned AWS services is helpful for this purpose?",
          "questionTypeId": 1,
-         "answer": "",
+         "answer": " ",
          "options": [
             {
-               "id": 1071,
-               "questionId": 2019,
+               "id": 1067,
+               "questionId": 2018,
                "name": "A. AWS CloudWatch + AWS SES",
                "isAnswer": false
             },
             {
-               "id": 1072,
-               "questionId": 2019,
+               "id": 1068,
+               "questionId": 2018,
                "name": "B. AWS CloudWatch + AWS SNS",
                "isAnswer": true
             },
             {
-               "id": 1073,
-               "questionId": 2019,
+               "id": 1069,
+               "questionId": 2018,
                "name": "C. It is not possible to configure the light with the AWS infrastructure services",
                "isAnswer": false
             },
             {
-               "id": 1074,
-               "questionId": 2019,
-               "name": "D. AWS CloudWatch and a dedicated software turning on the light",
+               "id": 1070,
+               "questionId": 2018,
+               "name": "D. AWS CloudWatch and a dedicated software turning on the light     ",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2020,
-         "name": "NO.410 You want to have multiple versions of your application running at the same time, with allversions launched via AWS Elastic Beanstalk. Is this possible?",
+         "id": 2019,
+         "name": " NO.410 You want to have multiple versions of your application running at the same time, with all versions launched via AWS Elastic Beanstalk. Is this possible?",
          "questionTypeId": 1,
-         "answer": "Explanation:AWS Elastic Beanstalk is designed to support multiple running environments. As an example youcould have one for integration testing, one for pre-production, and one for production, with eachenvironment independently configured and running on its own separate AWS resources.https://aws.amazon.com/elasticbeanstalk/faqs/",
+         "answer": " Explanation: AWS Elastic Beanstalk is designed to support multiple running environments. As an example you could have one for integration testing, one for pre-production, and one for production, with each environment independently configured and running on its own separate AWS resources. https://aws.amazon.com/elasticbeanstalk/faqs/ ",
          "options": [
             {
-               "id": 1075,
-               "questionId": 2020,
+               "id": 1071,
+               "questionId": 2019,
                "name": "A. No. However if you have 2 AWS accounts this can be done",
                "isAnswer": false
             },
             {
-               "id": 1076,
-               "questionId": 2020,
+               "id": 1072,
+               "questionId": 2019,
                "name": "B. No. AWS Elastic Beanstalk is not designed to support multiple running environments",
                "isAnswer": false
             },
             {
-               "id": 1077,
-               "questionId": 2020,
+               "id": 1073,
+               "questionId": 2019,
                "name": "C. Yes. AWS Elastic Beanstalk is designed to support a number of multiple running environments",
                "isAnswer": true
             },
             {
-               "id": 1078,
-               "questionId": 2020,
+               "id": 1074,
+               "questionId": 2019,
                "name": "D. Yes. However AWS Elastic Beanstalk is designed to support only 2 multiple running environments",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2021,
-         "name": "NO.411 An application is designed to use Amazon SQS to manage messages from many independentsenders. Each sender's messages must be processed in the order they are received.Which SQS feature should be implemented by the Developer?",
+         "id": 2020,
+         "name": " NO.411 An application is designed to use Amazon SQS to manage messages from many independent senders. Each sender's messages must be processed in the order they are received. Which SQS feature should be implemented by the Developer?",
          "questionTypeId": 1,
-         "answer": "Explanation:https://aws.amazon.com/blogs/developer/how-the-amazon-sqs-fifo-api-works/",
+         "answer": " Explanation: https://aws.amazon.com/blogs/developer/how-the-amazon-sqs-fifo-api-works/ ",
          "options": [
             {
-               "id": 1079,
-               "questionId": 2021,
+               "id": 1075,
+               "questionId": 2020,
                "name": "A. Configure each sender with a unique MessageGroupId",
                "isAnswer": false
             },
             {
-               "id": 1080,
-               "questionId": 2021,
+               "id": 1076,
+               "questionId": 2020,
                "name": "B. Enable MessageDeduplicationIds on the SQS queue",
                "isAnswer": false
             },
             {
-               "id": 1081,
-               "questionId": 2021,
+               "id": 1077,
+               "questionId": 2020,
                "name": "C. Configure each message with unique MessageGroupIds.",
                "isAnswer": true
             },
             {
-               "id": 1082,
-               "questionId": 2021,
+               "id": 1078,
+               "questionId": 2020,
                "name": "D. Enable ContentBasedDeduplication on the SQS queue",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2022,
-         "name": "NO.412 Which EC2 API call would you use to retrieve a list of Amazon Machine Images (AMIs)?",
+         "id": 2021,
+         "name": " NO.412 Which EC2 API call would you use to retrieve a list of Amazon Machine Images (AMIs)?",
          "questionTypeId": 1,
-         "answer": "",
+         "answer": " ",
          "options": [
             {
-               "id": 1083,
-               "questionId": 2022,
+               "id": 1079,
+               "questionId": 2021,
                "name": "A. DescnbeInstances",
                "isAnswer": false
             },
             {
-               "id": 1084,
-               "questionId": 2022,
+               "id": 1080,
+               "questionId": 2021,
                "name": "B. DescribeAMls",
                "isAnswer": false
             },
             {
-               "id": 1085,
-               "questionId": 2022,
+               "id": 1081,
+               "questionId": 2021,
                "name": "C. DescribeImages",
                "isAnswer": true
             },
             {
-               "id": 1086,
-               "questionId": 2022,
+               "id": 1082,
+               "questionId": 2021,
                "name": "D. GetAMls",
                "isAnswer": false
             },
             {
-               "id": 1087,
-               "questionId": 2022,
+               "id": 1083,
+               "questionId": 2021,
                "name": "E. You cannot retrieve a list of AMIs as there are over 10,000 AMIs",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2023,
-         "name": "NO.413 A company is migrating its on-premises database to Amazon RDS for MySQL. The companyhas read- heavy workloads, and wants to make sure it re-factors its code to achieve optimum readperformance for its queries.How can this objective be met?",
+         "id": 2022,
+         "name": " NO.413 A company is migrating its on-premises database to Amazon RDS for MySQL. The company has read- heavy workloads, and wants to make sure it re-factors its code to achieve optimum read performance for its queries. How can this objective be met?",
          "questionTypeId": 1,
-         "answer": "",
+         "answer": " ",
          "options": [
             {
-               "id": 1088,
-               "questionId": 2023,
+               "id": 1084,
+               "questionId": 2022,
                "name": "A. Add database retries to effectively use RDS with vertical scaling",
                "isAnswer": false
             },
             {
-               "id": 1089,
-               "questionId": 2023,
+               "id": 1085,
+               "questionId": 2022,
                "name": "B. Use RDS with multi-AZ deployment",
                "isAnswer": false
             },
             {
-               "id": 1090,
-               "questionId": 2023,
+               "id": 1086,
+               "questionId": 2022,
                "name": "C. Add a connection string to use an RDS read replica for read queries",
                "isAnswer": true
             },
             {
-               "id": 1091,
-               "questionId": 2023,
+               "id": 1087,
+               "questionId": 2022,
                "name": "D. Add a connection string to use a read replica on an EC2 instance.",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2024,
-         "name": "NO.414 In the basic monitoring package for EC2, Amazon CloudWatch provides the followingmetrics:",
+         "id": 2023,
+         "name": " NO.414 In the basic monitoring package for EC2, Amazon CloudWatch provides the following metrics:",
          "questionTypeId": 1,
-         "answer": "",
+         "answer": " ",
          "options": [
             {
-               "id": 1092,
-               "questionId": 2024,
+               "id": 1088,
+               "questionId": 2023,
                "name": "A. Web server visible metrics such as number failed transaction requests",
                "isAnswer": false
             },
             {
-               "id": 1093,
-               "questionId": 2024,
+               "id": 1089,
+               "questionId": 2023,
                "name": "B. Operating system visible metrics such as memory utilization",
                "isAnswer": false
             },
             {
-               "id": 1094,
-               "questionId": 2024,
+               "id": 1090,
+               "questionId": 2023,
                "name": "C. Database visible metrics such as number of connections",
                "isAnswer": false
             },
             {
-               "id": 1095,
-               "questionId": 2024,
+               "id": 1091,
+               "questionId": 2023,
                "name": "D. Hypervisor visible metrics such as CPU utilization",
                "isAnswer": true
             }
          ]
       },
       {
-         "id": 2025,
-         "name": "NO.415 A Developer is designing a new application that uses Amazon S3. To satisfy compliancerequirements, the Developer must encrypt the data at rest.How can the Developer accomplish this?",
+         "id": 2024,
+         "name": " NO.415 A Developer is designing a new application that uses Amazon S3. To satisfy compliance requirements, the Developer must encrypt the data at rest. How can the Developer accomplish this?",
          "questionTypeId": 1,
-         "answer": "",
+         "answer": " ",
          "options": [
             {
-               "id": 1096,
-               "questionId": 2025,
+               "id": 1092,
+               "questionId": 2024,
                "name": "A. Use s3:x-amz-acl as a condition in the S3 bucket policy.",
                "isAnswer": false
             },
             {
-               "id": 1097,
-               "questionId": 2025,
+               "id": 1093,
+               "questionId": 2024,
                "name": "B. Use Amazon RDS with default encryption.",
                "isAnswer": false
             },
             {
-               "id": 1098,
-               "questionId": 2025,
+               "id": 1094,
+               "questionId": 2024,
                "name": "C. Use aws:SecureTransport as a condition in the S3 bucket policy.",
                "isAnswer": false
             },
             {
-               "id": 1099,
-               "questionId": 2025,
+               "id": 1095,
+               "questionId": 2024,
                "name": "D. Turn on S3 default encryption for the S3 bucket.",
                "isAnswer": true
             }
          ]
       },
       {
-         "id": 2026,
-         "name": "NO.416 Which of the following statements about SQS is true?",
+         "id": 2025,
+         "name": " NO.416 Which of the following statements about SQS is true?",
          "questionTypeId": 1,
-         "answer": "",
+         "answer": " ",
          "options": [
             {
-               "id": 1100,
-               "questionId": 2026,
+               "id": 1096,
+               "questionId": 2025,
                "name": "A. Messages will be delivered exactly once and messages will be delivered in First in, First out order",
                "isAnswer": false
             },
             {
-               "id": 1101,
-               "questionId": 2026,
+               "id": 1097,
+               "questionId": 2025,
                "name": "B. Messages will be delivered exactly once and message delivery order is indeterminate",
                "isAnswer": false
             },
             {
-               "id": 1102,
-               "questionId": 2026,
-               "name": "C. Messages will be delivered one or more times and messages will be delivered in First in, First outorder",
+               "id": 1098,
+               "questionId": 2025,
+               "name": "C. Messages will be delivered one or more times and messages will be delivered in First in, First out order",
                "isAnswer": false
             },
             {
-               "id": 1103,
-               "questionId": 2026,
+               "id": 1099,
+               "questionId": 2025,
                "name": "D. Messages will be delivered one or more times and message delivery order is indeterminate",
                "isAnswer": true
             }
          ]
       },
       {
-         "id": 2027,
-         "name": "NO.417 A static website is hosted in an Amazon S3 bucket. Several HTML pages on the site useJavaScript to download images from another Amazon S3 bucket. These images are not displayedwhen users browse the site.What is the possible cause for the issue?",
+         "id": 2026,
+         "name": " NO.417 A static website is hosted in an Amazon S3 bucket. Several HTML pages on the site use JavaScript to download images from another Amazon S3 bucket. These images are not displayed when users browse the site. What is the possible cause for the issue?",
          "questionTypeId": 1,
-         "answer": "",
+         "answer": " ",
          "options": [
             {
-               "id": 1104,
-               "questionId": 2027,
+               "id": 1100,
+               "questionId": 2026,
                "name": "A. The referenced Amazon S3 bucket is in another region.",
                "isAnswer": false
             },
             {
-               "id": 1105,
-               "questionId": 2027,
+               "id": 1101,
+               "questionId": 2026,
                "name": "B. The images must be stored in the same Amazon S3 bucket.",
                "isAnswer": false
             },
             {
-               "id": 1106,
-               "questionId": 2027,
+               "id": 1102,
+               "questionId": 2026,
                "name": "C. Port 80 must be opened on the security group in which the Amazon S3 bucket is located.",
                "isAnswer": true
             },
             {
-               "id": 1107,
-               "questionId": 2027,
+               "id": 1103,
+               "questionId": 2026,
                "name": "D. Cross Origin Resource Sharing must be enabled on the Amazon S3 bucket.",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2028,
-         "name": "NO.418 Regarding Amazon SWF, at times you might want to record information in the workflowhistory of a workflow execution that is specific to your use case. _________ enable you to recordinformation in the workflow execution history that you can use for any custom or scenario-specificpurpose.",
+         "id": 2027,
+         "name": " NO.418 Regarding Amazon SWF, at times you might want to record information in the workflow history of a workflow execution that is specific to your use case. _________ enable you to record information in the workflow execution history that you can use for any custom or scenario-specific purpose.",
          "questionTypeId": 1,
-         "answer": "Explanation:In Amazon SWF, at times you might want to record information in the workflow history of a workflowexecution that is specific to your use case. Markers enable you to record information in the workflowexecution history that you can use for any custom or scenario-specific purpose.http://docs.aws.amazon.com/amazonswf/latest/developerguide/swf-dg-adv.html",
+         "answer": " Explanation: In Amazon SWF, at times you might want to record information in the workflow history of a workflow execution that is specific to your use case. Markers enable you to record information in the workflow execution history that you can use for any custom or scenario-specific purpose. http://docs.aws.amazon.com/amazonswf/latest/developerguide/swf-dg-adv.html ",
          "options": [
             {
-               "id": 1108,
-               "questionId": 2028,
+               "id": 1104,
+               "questionId": 2027,
                "name": "A. Markers",
                "isAnswer": true
             },
             {
-               "id": 1109,
-               "questionId": 2028,
+               "id": 1105,
+               "questionId": 2027,
                "name": "B. Tags",
                "isAnswer": false
             },
             {
-               "id": 1110,
-               "questionId": 2028,
+               "id": 1106,
+               "questionId": 2027,
                "name": "C. Hash keys",
                "isAnswer": false
             },
             {
-               "id": 1111,
-               "questionId": 2028,
-               "name": "D. Events",
+               "id": 1107,
+               "questionId": 2027,
+               "name": "D. Events     ",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2029,
-         "name": "NO.419 Which of the below mentioned options can be a good use case for storing content in AWS",
+         "id": 2028,
+         "name": " NO.419 Which of the below mentioned options can be a good use case for storing content in AWS",
          "questionTypeId": 1,
-         "answer": "Explanation:AWS RRS provides the same functionality as AWS S3, but at a cheaper rate. It is ideally suited for non-mission, critical applications, such as files which can be reproduced.http://docs.aws.amazon.com/AmazonS3/latest/dev/UsingRRS.html",
+         "answer": " Explanation: AWS RRS provides the same functionality as AWS S3, but at a cheaper rate. It is ideally suited for non- mission, critical applications, such as files which can be reproduced. http://docs.aws.amazon.com/AmazonS3/latest/dev/UsingRRS.html ",
          "options": [
             {
-               "id": 1112,
-               "questionId": 2029,
+               "id": 1108,
+               "questionId": 2028,
                "name": "A. Storing mission critical data Files",
                "isAnswer": false
             },
             {
-               "id": 1113,
-               "questionId": 2029,
+               "id": 1109,
+               "questionId": 2028,
                "name": "B. Storing infrequently used log files",
                "isAnswer": false
             },
             {
-               "id": 1114,
-               "questionId": 2029,
+               "id": 1110,
+               "questionId": 2028,
                "name": "C. Storing a video file which is not reproducible",
                "isAnswer": false
             },
             {
-               "id": 1115,
-               "questionId": 2029,
+               "id": 1111,
+               "questionId": 2028,
                "name": "D. Storing image thumbnails",
                "isAnswer": true
             }
          ]
       },
       {
-         "id": 2030,
-         "name": "NO.420 What is the maximum size for messages stored in SQS?",
+         "id": 2029,
+         "name": " NO.420 What is the maximum size for messages stored in SQS?",
          "questionTypeId": 1,
-         "answer": "Explanation:By default, SQS queues allow you to send the largest supported payload size, currently 256KB.You can choose to specify a limit on how many bytes can be sent per payload, using theMaximumMessageSize attribute of the SetQueueAttributes method.http://aws.amazon.com/sqs/faqs/",
+         "answer": " Explanation: By default, SQS queues allow you to send the largest supported payload size, currently 256KB. You can choose to specify a limit on how many bytes can be sent per payload, using the MaximumMessageSize attribute of the SetQueueAttributes method. http://aws.amazon.com/sqs/faqs/ ",
          "options": [
             {
-               "id": 1116,
-               "questionId": 2030,
+               "id": 1112,
+               "questionId": 2029,
                "name": "A. 256KB",
                "isAnswer": true
             },
             {
-               "id": 1117,
-               "questionId": 2030,
+               "id": 1113,
+               "questionId": 2029,
                "name": "B. 128KB",
                "isAnswer": false
             },
             {
-               "id": 1118,
-               "questionId": 2030,
+               "id": 1114,
+               "questionId": 2029,
                "name": "C. 1024KB",
                "isAnswer": false
             },
             {
-               "id": 1119,
-               "questionId": 2030,
+               "id": 1115,
+               "questionId": 2029,
                "name": "D. 64KB",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2031,
-         "name": "NO.421 A company needs to encrypt data at rest, but it wants to leverage an AWS managed serviceusing its own master key.Which of the following AWS service can be used to meet these requirements?",
+         "id": 2030,
+         "name": " NO.421 A company needs to encrypt data at rest, but it wants to leverage an AWS managed service using its own master key. Which of the following AWS service can be used to meet these requirements?",
          "questionTypeId": 1,
-         "answer": "",
+         "answer": " ",
          "options": [
             {
-               "id": 1120,
-               "questionId": 2031,
+               "id": 1116,
+               "questionId": 2030,
                "name": "A. SSE with Amazon S3",
                "isAnswer": false
             },
             {
-               "id": 1121,
-               "questionId": 2031,
+               "id": 1117,
+               "questionId": 2030,
                "name": "B. SSE with AWS KMS",
                "isAnswer": true
             },
             {
-               "id": 1122,
-               "questionId": 2031,
+               "id": 1118,
+               "questionId": 2030,
                "name": "C. Client-side encryption",
                "isAnswer": false
             },
             {
-               "id": 1123,
-               "questionId": 2031,
+               "id": 1119,
+               "questionId": 2030,
                "name": "D. AWS IAM roles and policies",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2032,
-         "name": "NO.422 A company needs to secure its existing website running behind an Elastic Load Balancer. Thewebsite's Amazon EC2 instances are CPU-constrained.What should be done to secure the website while not increasing the CPU load on the EC2 webservers? (Select TWO.)",
+         "id": 2031,
+         "name": " NO.422 A company needs to secure its existing website running behind an Elastic Load Balancer. The website's Amazon EC2 instances are CPU-constrained. What should be done to secure the website while not increasing the CPU load on the EC2 web servers? (Select TWO.)",
          "questionTypeId": 2,
-         "answer": "",
+         "answer": " ",
          "options": [
             {
-               "id": 1124,
-               "questionId": 2032,
+               "id": 1120,
+               "questionId": 2031,
                "name": "A. Configure an Elastic Load Balancer with SSL pass-through.",
                "isAnswer": false
             },
             {
-               "id": 1125,
-               "questionId": 2032,
+               "id": 1121,
+               "questionId": 2031,
                "name": "B. Configure SSL certificates on an Elastic Load Balancer.",
                "isAnswer": true
             },
             {
-               "id": 1126,
-               "questionId": 2032,
+               "id": 1122,
+               "questionId": 2031,
                "name": "C. Configure an Elastic Load Balancer with a Loadable Storage System.",
                "isAnswer": false
             },
             {
-               "id": 1127,
-               "questionId": 2032,
+               "id": 1123,
+               "questionId": 2031,
                "name": "D. Install SSL certificates on the EC2 instances.",
                "isAnswer": true
             },
             {
-               "id": 1128,
-               "questionId": 2032,
+               "id": 1124,
+               "questionId": 2031,
                "name": "E. Configure an Elastic Load Balancer with SSL termination.",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2033,
-         "name": "NO.423 A user has enabled serverside encryption with S3. The user downloads the encrypted objectfrom S3.How can the user decrypt it?",
+         "id": 2032,
+         "name": " NO.423 A user has enabled serverside encryption with S3. The user downloads the encrypted object from S3. How can the user decrypt it?",
          "questionTypeId": 1,
-         "answer": "Explanation:If the user is using the server-side encryption feature, Amazon S3 encrypts the object data beforesaving it on disks in its data centres and decrypts it when the user downloads the objects. Thus, theuser is free from the tasks of managing encryption, encryption keys, and related tools.http://docs.aws.amazon.com/AmazonS3/latest/dev/UsingEncryption.html",
+         "answer": " Explanation: If the user is using the server-side encryption feature, Amazon S3 encrypts the object data before saving it on disks in its data centres and decrypts it when the user downloads the objects. Thus, the user is free from the tasks of managing encryption, encryption keys, and related tools. http://docs.aws.amazon.com/AmazonS3/latest/dev/UsingEncryption.html ",
          "options": [
             {
-               "id": 1129,
-               "questionId": 2033,
+               "id": 1125,
+               "questionId": 2032,
                "name": "A. S3 does not support server side encryption",
                "isAnswer": false
             },
             {
-               "id": 1130,
-               "questionId": 2033,
+               "id": 1126,
+               "questionId": 2032,
                "name": "B. S3 provides a server side key to decrypt the object",
                "isAnswer": false
             },
             {
-               "id": 1131,
-               "questionId": 2033,
+               "id": 1127,
+               "questionId": 2032,
                "name": "C. The user needs to decrypt the object using their own private key",
                "isAnswer": false
             },
             {
-               "id": 1132,
-               "questionId": 2033,
+               "id": 1128,
+               "questionId": 2032,
                "name": "D. S3 manages encryption and decryption automatically",
                "isAnswer": true
             }
          ]
       },
       {
-         "id": 2034,
-         "name": "NO.424 A user has configured a bucket S3 to host a static website. What difference will there bewhen static website hosting is enabled?",
+         "id": 2033,
+         "name": " NO.424 A user has configured a bucket S3 to host a static website. What difference will there be when static website hosting is enabled?",
          "questionTypeId": 1,
-         "answer": "Explanation:To host a static website, the user needs to configure an Amazon S3 bucket for website hosting andthen upload the website contents to the bucket. The website is then available at the region- specificwebsite endpoint of the bucket.http://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html",
+         "answer": " Explanation: To host a static website, the user needs to configure an Amazon S3 bucket for website hosting and then upload the website contents to the bucket. The website is then available at the region- specific website endpoint of the bucket. http://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html ",
          "options": [
             {
-               "id": 1133,
-               "questionId": 2034,
+               "id": 1129,
+               "questionId": 2033,
                "name": "A. It will help the user identify this bucket as the website root to map with the domain",
                "isAnswer": false
             },
             {
-               "id": 1134,
-               "questionId": 2034,
+               "id": 1130,
+               "questionId": 2033,
                "name": "B. It will create a new version of the bucket",
                "isAnswer": false
             },
             {
-               "id": 1135,
-               "questionId": 2034,
+               "id": 1131,
+               "questionId": 2033,
                "name": "C. It will not make any difference, but will help the user to configure the error page",
                "isAnswer": false
             },
             {
-               "id": 1136,
-               "questionId": 2034,
+               "id": 1132,
+               "questionId": 2033,
                "name": "D. It will provide the region specific website endpoint",
                "isAnswer": true
             }
          ]
       },
       {
-         "id": 2035,
-         "name": "NO.425 In regards to Amazon SQS how many times will you receive each message?",
+         "id": 2034,
+         "name": " NO.425 In regards to Amazon SQS how many times will you receive each message?",
          "questionTypeId": 1,
-         "answer": "Explanation:Amazon SQS is engineered to provide \"at least once\" delivery of all messages in its queues.Although most of the time, each message will be delivered to your application exactly once, youshould design your system so that processing a message more than once does not create any errorsor inconsistencies.https://aws.amazon.com/sqs/faqs/",
+         "answer": " Explanation: Amazon SQS is engineered to provide \"at least once\" delivery of all messages in its queues. Although most of the time, each message will be delivered to your application exactly once, you should design your system so that processing a message more than once does not create any errors     or inconsistencies. https://aws.amazon.com/sqs/faqs/ ",
          "options": [
             {
-               "id": 1137,
-               "questionId": 2035,
+               "id": 1133,
+               "questionId": 2034,
                "name": "A. At least twice",
                "isAnswer": false
             },
             {
-               "id": 1138,
-               "questionId": 2035,
+               "id": 1134,
+               "questionId": 2034,
                "name": "B. Exactly once",
                "isAnswer": false
             },
             {
-               "id": 1139,
-               "questionId": 2035,
+               "id": 1135,
+               "questionId": 2034,
                "name": "C. As many times as you want",
                "isAnswer": false
             },
             {
-               "id": 1140,
-               "questionId": 2035,
+               "id": 1136,
+               "questionId": 2034,
                "name": "D. At least once",
                "isAnswer": true
             }
          ]
       },
       {
-         "id": 2036,
-         "name": "NO.426 A user is trying to find the state of an S3 bucket with respect to versioning. Which of thebelow mentioned states AWS will not return when queried?",
+         "id": 2035,
+         "name": " NO.426 A user is trying to find the state of an S3 bucket with respect to versioning. Which of the below mentioned states AWS will not return when queried?",
          "questionTypeId": 1,
-         "answer": "Explanation:S3 buckets can be in one of the three states: unversioned (the default), versioning-enabled orversioning-suspended. The bucket owner can configure the versioning state of a bucket. Theversioning state applies to all (never some) of the objects in that bucket. The first time owner enablesa bucket for versioning, objects in it are thereafter always versioned and given a unique version ID.http://docs.aws.amazon.com/AmazonS3/latest/dev/Versioning.html",
+         "answer": " Explanation: S3 buckets can be in one of the three states: unversioned (the default), versioning-enabled or versioning-suspended. The bucket owner can configure the versioning state of a bucket. The versioning state applies to all (never some) of the objects in that bucket. The first time owner enables a bucket for versioning, objects in it are thereafter always versioned and given a unique version ID. http://docs.aws.amazon.com/AmazonS3/latest/dev/Versioning.html ",
          "options": [
             {
-               "id": 1141,
-               "questionId": 2036,
+               "id": 1137,
+               "questionId": 2035,
                "name": "A. versioning-enabled",
                "isAnswer": false
             },
             {
-               "id": 1142,
-               "questionId": 2036,
+               "id": 1138,
+               "questionId": 2035,
                "name": "B. versioning-suspended",
                "isAnswer": false
             },
             {
-               "id": 1143,
-               "questionId": 2036,
+               "id": 1139,
+               "questionId": 2035,
                "name": "C. unversioned",
                "isAnswer": false
             },
             {
-               "id": 1144,
-               "questionId": 2036,
+               "id": 1140,
+               "questionId": 2035,
                "name": "D. versioned",
                "isAnswer": true
             }
          ]
       },
       {
-         "id": 2037,
-         "name": "NO.427 A company is building an application to track athlete performance using an AmazonDynamoDB table. Each item in the table is identified by a partition key (user_id) and a sort key(sport_name).The table design is shown below:(Note: Not all table attributes are shown)A Developer is asked to write a leaderboard application to display the top performers (user_id) basedon the score for each sport_name.What process will allow the Developer to extract results MOST efficiently from the DynamoDB table?",
+         "id": 2036,
+         "name": " NO.427 A company is building an application to track athlete performance using an Amazon DynamoDB table. Each item in the table is identified by a partition key (user_id) and a sort key (sport_name). The table design is shown below: (Note: Not all table attributes are shown) A Developer is asked to write a leaderboard application to display the top performers (user_id) based on the score for each sport_name. What process will allow the Developer to extract results MOST efficiently from the DynamoDB table?",
          "questionTypeId": 1,
-         "answer": "",
+         "answer": " ",
          "options": [
             {
-               "id": 1145,
-               "questionId": 2037,
-               "name": "A. Use a DynamoDB query operation with the key attributes of user_id and sport_name and orderthe results based on the score attribute.",
+               "id": 1141,
+               "questionId": 2036,
+               "name": "A. Use a DynamoDB query operation with the key attributes of user_id and sport_name and order the results based on the score attribute.",
                "isAnswer": false
             },
             {
-               "id": 1146,
-               "questionId": 2037,
-               "name": "B. Create a global secondary index with a partition key of sport_name and a sort key of score, andget the results",
+               "id": 1142,
+               "questionId": 2036,
+               "name": "B. Create a global secondary index with a partition key of sport_name and a sort key of score, and get the results",
                "isAnswer": false
             },
             {
-               "id": 1147,
-               "questionId": 2037,
-               "name": "C. Use a DynamoDB scan operation to retrieve scores and user_id based on sport_name, and orderthe results based on the score attribute.",
+               "id": 1143,
+               "questionId": 2036,
+               "name": "C. Use a DynamoDB scan operation to retrieve scores and user_id based on sport_name, and order the results based on the score attribute.",
                "isAnswer": false
             },
             {
-               "id": 1148,
-               "questionId": 2037,
-               "name": "D. Create a local secondary index with a primary key of sport_name and a sort key of score and getthe results based on the score attribute.",
+               "id": 1144,
+               "questionId": 2036,
+               "name": "D. Create a local secondary index with a primary key of sport_name and a sort key of score and get the results based on the score attribute.",
                "isAnswer": true
             }
          ]
       },
       {
-         "id": 2038,
-         "name": "NO.428 An organization has created an application which is hosted on the AWS EC2 instance. Theapplication stores images to S3 when the end user uploads to it. The organization does not want tostore the AWS secure credentials required to access the S3 inside the instance. Which of the belowmentioned options is a possible solution to avoid any security threat?",
+         "id": 2037,
+         "name": " NO.428 An organization has created an application which is hosted on the AWS EC2 instance. The application stores images to S3 when the end user uploads to it. The organization does not want to store the AWS secure credentials required to access the S3 inside the instance. Which of the below mentioned options is a possible solution to avoid any security threat?",
          "questionTypeId": 1,
-         "answer": "Explanation:The AWS IAM role uses temporary security credentials to access AWS services. Once the role isassigned to an instance, it will not need any security credentials to be stored on the instance.http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/iam-roles-for-amazon-ec2.html",
+         "answer": " Explanation: The AWS IAM role uses temporary security credentials to access AWS services. Once the role is assigned to an instance, it will not need any security credentials to be stored on the instance. http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/iam-roles-for-amazon-ec2.html ",
          "options": [
             {
-               "id": 1149,
-               "questionId": 2038,
+               "id": 1145,
+               "questionId": 2037,
                "name": "A. Use the IAM role and assign it to the instance.",
                "isAnswer": true
             },
             {
-               "id": 1150,
-               "questionId": 2038,
+               "id": 1146,
+               "questionId": 2037,
                "name": "B. Since the application is hosted on EC2, it does not need credentials to access S3.",
                "isAnswer": false
             },
             {
-               "id": 1151,
-               "questionId": 2038,
+               "id": 1147,
+               "questionId": 2037,
                "name": "C. Use the X.509 certificates instead of the access and the secret access keys.",
                "isAnswer": false
             },
             {
-               "id": 1152,
-               "questionId": 2038,
+               "id": 1148,
+               "questionId": 2037,
                "name": "D. Use the IAM based single sign between the AWS resources and the organization application.",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2039,
-         "name": "NO.429 A user has configured ELB. Which of the below mentioned protocols the user can configurefor ELB health checks while setting up ELB?",
+         "id": 2038,
+         "name": " NO.429 A user has configured ELB. Which of the below mentioned protocols the user can configure for ELB health checks while setting up ELB?",
          "questionTypeId": 1,
-         "answer": "Explanation:An ELB performs a health check on its instances to ensure that it diverts traffic only to healthyinstances. The ELB can perform a health check on HTTP, HTTPS, TCP and SSL protocols.http://docs.aws.amazon.com/ElasticLoadBalancing/latest/DeveloperGuide/Welcome.html",
+         "answer": " Explanation: An ELB performs a health check on its instances to ensure that it diverts traffic only to healthy instances. The ELB can perform a health check on HTTP, HTTPS, TCP and SSL protocols. http://docs.aws.amazon.com/ElasticLoadBalancing/latest/DeveloperGuide/Welcome.html ",
          "options": [
             {
-               "id": 1153,
-               "questionId": 2039,
+               "id": 1149,
+               "questionId": 2038,
                "name": "A. All of the options",
                "isAnswer": true
             },
             {
-               "id": 1154,
-               "questionId": 2039,
+               "id": 1150,
+               "questionId": 2038,
                "name": "B. TCP",
                "isAnswer": false
             },
             {
-               "id": 1155,
-               "questionId": 2039,
+               "id": 1151,
+               "questionId": 2038,
                "name": "C. HTTPS",
                "isAnswer": false
             },
             {
-               "id": 1156,
-               "questionId": 2039,
+               "id": 1152,
+               "questionId": 2038,
                "name": "D. SSL",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2040,
-         "name": "NO.430 A user has created an application which sends data to a log file. The server hosting the logfiles can be unavailable due to any reason. The user wants to make it so that whenever the log serveris up it should be receiving the messages. Which of the below mentioned AWS services helps achievethis functionality?",
+         "id": 2039,
+         "name": " NO.430 A user has created an application which sends data to a log file. The server hosting the log files can be unavailable due to any reason. The user wants to make it so that whenever the log server is up it should be receiving the messages. Which of the below mentioned AWS services helps achieve this functionality?",
          "questionTypeId": 1,
-         "answer": "Explanation:Amazon Simple Queue Service (SQS) is a fast, reliable, scalable, and fully managed message queuingservice. SQS provides a simple and cost-effective way to decouple the components of an application.The user can use SQS to transmit any volume of data without losing messages or requiring otherservices to always be available. Using SQS, the application has to just send the data to SQS and SQStransmits it to the log file whenever it is available.http://aws.amazon.com/sqs/",
+         "answer": " Explanation: Amazon Simple Queue Service (SQS) is a fast, reliable, scalable, and fully managed message queuing service. SQS provides a simple and cost-effective way to decouple the components of an application. The user can use SQS to transmit any volume of data without losing messages or requiring other services to always be available. Using SQS, the application has to just send the data to SQS and SQS transmits it to the log file whenever it is available. http://aws.amazon.com/sqs/ ",
          "options": [
             {
-               "id": 1157,
-               "questionId": 2040,
+               "id": 1153,
+               "questionId": 2039,
                "name": "A. AWS Simple Workflow",
                "isAnswer": false
             },
             {
-               "id": 1158,
-               "questionId": 2040,
+               "id": 1154,
+               "questionId": 2039,
                "name": "B. AWS Simple Task Service",
                "isAnswer": false
             },
             {
-               "id": 1159,
-               "questionId": 2040,
+               "id": 1155,
+               "questionId": 2039,
                "name": "C. AWS Simple Notification Service",
                "isAnswer": false
             },
             {
-               "id": 1160,
-               "questionId": 2040,
+               "id": 1156,
+               "questionId": 2039,
                "name": "D. AWS Simple Queue Service",
                "isAnswer": true
             }
          ]
       },
       {
-         "id": 2041,
-         "name": "NO.431 Which statements about DynamoDB are true? Choose 2 answers",
+         "id": 2040,
+         "name": " NO.431 Which statements about DynamoDB are true? Choose 2 answers",
          "questionTypeId": 2,
-         "answer": "",
+         "answer": " ",
          "options": [
             {
-               "id": 1161,
-               "questionId": 2041,
+               "id": 1157,
+               "questionId": 2040,
                "name": "A. DynamoDB uses a pessimistic locking model",
                "isAnswer": false
             },
             {
-               "id": 1162,
-               "questionId": 2041,
+               "id": 1158,
+               "questionId": 2040,
                "name": "B. DynamoDB uses optimistic concurrency control",
                "isAnswer": true
             },
             {
-               "id": 1163,
-               "questionId": 2041,
+               "id": 1159,
+               "questionId": 2040,
                "name": "C. DynamoDB uses conditional writes for consistency",
                "isAnswer": true
             },
             {
-               "id": 1164,
-               "questionId": 2041,
-               "name": "D. DynamoDB restricts item access during reads",
+               "id": 1160,
+               "questionId": 2040,
+               "name": "D. DynamoDB restricts item access during reads    ",
                "isAnswer": false
             },
             {
-               "id": 1165,
-               "questionId": 2041,
+               "id": 1161,
+               "questionId": 2040,
                "name": "E. DynamoDB restricts item access during writes",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2042,
-         "name": "NO.432 When a Developer tries to run an AWS CodeBuild project, it raises an error because thelength of all environment variables exceeds the limit for the combined maximum of characters.What is the recommended solution?",
+         "id": 2041,
+         "name": " NO.432 When a Developer tries to run an AWS CodeBuild project, it raises an error because the length of all environment variables exceeds the limit for the combined maximum of characters. What is the recommended solution?",
          "questionTypeId": 1,
-         "answer": "",
+         "answer": " ",
          "options": [
             {
-               "id": 1166,
-               "questionId": 2042,
-               "name": "A. Add the export LC_ALL=\"en_US.utf8\" command to the pre_build section to ensure POSIXlocalization.",
+               "id": 1162,
+               "questionId": 2041,
+               "name": "A. Add the export LC_ALL=\"en_US.utf8\" command to the pre_build section to ensure POSIX localization.",
                "isAnswer": false
             },
             {
-               "id": 1167,
-               "questionId": 2042,
+               "id": 1163,
+               "questionId": 2041,
                "name": "B. Use Amazon Cognito to store key-value pairs for large numbers of environment variables.",
                "isAnswer": false
             },
             {
-               "id": 1168,
-               "questionId": 2042,
-               "name": "C. Update the settings for the build project to use an Amazon S3 bucket for large numbers ofenvironment variables.",
+               "id": 1164,
+               "questionId": 2041,
+               "name": "C. Update the settings for the build project to use an Amazon S3 bucket for large numbers of environment variables.",
                "isAnswer": false
             },
             {
-               "id": 1169,
-               "questionId": 2042,
+               "id": 1165,
+               "questionId": 2041,
                "name": "D. Use AWS Systems Manager Parameter Store to store large numbers of environment variables.",
                "isAnswer": true
             }
          ]
       },
       {
-         "id": 2043,
-         "name": "NO.433 When AutoScaling is launching a new instance based on condition, which of the belowmentioned policies will it follow?",
+         "id": 2042,
+         "name": " NO.433 When AutoScaling is launching a new instance based on condition, which of the below mentioned policies will it follow?",
          "questionTypeId": 1,
-         "answer": "Explanation:AutoScaling attempts to distribute instances evenly between the Availability Zones that are enabledfor the user's AutoScaling group. Auto Scaling does this by attempting to launch new instances in theAvailability Zone with the fewest instances.http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/AS_Concepts.html",
+         "answer": " Explanation: AutoScaling attempts to distribute instances evenly between the Availability Zones that are enabled for the user's AutoScaling group. Auto Scaling does this by attempting to launch new instances in the Availability Zone with the fewest instances. http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/AS_Concepts.html ",
          "options": [
             {
-               "id": 1170,
-               "questionId": 2043,
+               "id": 1166,
+               "questionId": 2042,
                "name": "A. Based on the criteria defined with cross zone Load balancing",
                "isAnswer": false
             },
             {
-               "id": 1171,
-               "questionId": 2043,
+               "id": 1167,
+               "questionId": 2042,
                "name": "B. Launch an instance which has the highest load distribution",
                "isAnswer": false
             },
             {
-               "id": 1172,
-               "questionId": 2043,
+               "id": 1168,
+               "questionId": 2042,
                "name": "C. Launch an instance in the AZ with the fewest instances",
                "isAnswer": true
             },
             {
-               "id": 1173,
-               "questionId": 2043,
+               "id": 1169,
+               "questionId": 2042,
                "name": "D. Launch an instance in the AZ which has the highest instances",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2044,
-         "name": "NO.434 A Developer wants to use AWS X-Ray to trace a user request end-to-end throughput thesoftware stack. The Developer made the necessary changes in the application tested it, and foundthat the application is able to send the traces to AWS X-Ray. However, when the application isdeployed to an EC2 instance, the traces are not available.Which of the following could create this situation? (Select two.)",
+         "id": 2043,
+         "name": " NO.434 A Developer wants to use AWS X-Ray to trace a user request end-to-end throughput the software stack. The Developer made the necessary changes in the application tested it, and found that the application is able to send the traces to AWS X-Ray. However, when the application is deployed to an EC2 instance, the traces are not available. Which of the following could create this situation? (Select two.)",
          "questionTypeId": 2,
-         "answer": "",
+         "answer": " ",
          "options": [
             {
-               "id": 1174,
-               "questionId": 2044,
+               "id": 1170,
+               "questionId": 2043,
                "name": "A. The traces are reaching X-Ray, but the Developer does not have access to view the records.",
                "isAnswer": false
             },
             {
-               "id": 1175,
-               "questionId": 2044,
+               "id": 1171,
+               "questionId": 2043,
                "name": "B. The X-Ray daemon is not installed on the EC2 instance.",
                "isAnswer": true
             },
             {
-               "id": 1176,
-               "questionId": 2044,
+               "id": 1172,
+               "questionId": 2043,
                "name": "C. The X-Ray endpoint specified in the application configuration is incorrect.",
                "isAnswer": false
             },
             {
-               "id": 1177,
-               "questionId": 2044,
+               "id": 1173,
+               "questionId": 2043,
                "name": "D. The instance role does not have \"xray:BatchGetTraces\" and \"xray:GetTraceGraph\" permissions.",
                "isAnswer": false
             },
             {
-               "id": 1178,
-               "questionId": 2044,
-               "name": "E. The instance role does not have \"xray:PutTraceSegments\" and \"xray:PutTelemetryRecords\"permissions.",
+               "id": 1174,
+               "questionId": 2043,
+               "name": "E. The instance role does not have \"xray:PutTraceSegments\" and \"xray:PutTelemetryRecords\" permissions.",
                "isAnswer": true
             }
          ]
       },
       {
-         "id": 2045,
-         "name": "NO.435 In DynamoDB, could you use IAM to grant access to Amazon DynamoDB resources and APIactions?",
+         "id": 2044,
+         "name": " NO.435 In DynamoDB, could you use IAM to grant access to Amazon DynamoDB resources and API actions?",
          "questionTypeId": 1,
-         "answer": "Explanation:Amazon DynamoDB integrates with AWS Identity and Access Management (IAM).You can use AWS IAM to grant access to Amazon DynamoDB resources and API actions.To do this, you first write an AWS IAM policy, which is a document that explicitly lists the permissionsyou want to grant. You then attach that policy to an AWS IAM user or role.http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/UsingIAMWithDDB.html",
+         "answer": " Explanation: Amazon DynamoDB integrates with AWS Identity and Access Management (IAM). You can use AWS IAM to grant access to Amazon DynamoDB resources and API actions. To do this, you first write an AWS IAM policy, which is a document that explicitly lists the permissions you want to grant. You then attach that policy to an AWS IAM user or role. http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/UsingIAMWithDDB.html ",
          "options": [
             {
-               "id": 1179,
-               "questionId": 2045,
+               "id": 1175,
+               "questionId": 2044,
                "name": "A. Yes",
                "isAnswer": true
             },
             {
-               "id": 1180,
-               "questionId": 2045,
-               "name": "B. Depended to the type of access",
+               "id": 1176,
+               "questionId": 2044,
+               "name": "B. Depended to the type of access    ",
                "isAnswer": false
             },
             {
-               "id": 1181,
-               "questionId": 2045,
+               "id": 1177,
+               "questionId": 2044,
                "name": "C. In DynamoDB there is no need to grant access",
                "isAnswer": false
             },
             {
-               "id": 1182,
-               "questionId": 2045,
+               "id": 1178,
+               "questionId": 2044,
                "name": "D. No",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2046,
-         "name": "NO.436 A Developer wants to upload data to Amazon S3 and must encrypt the data in transit.Which of the following solutions will accomplish this task? (Choose two.)",
+         "id": 2045,
+         "name": " NO.436 A Developer wants to upload data to Amazon S3 and must encrypt the data in transit. Which of the following solutions will accomplish this task? (Choose two.)",
          "questionTypeId": 2,
-         "answer": "",
+         "answer": " ",
          "options": [
             {
-               "id": 1183,
-               "questionId": 2046,
+               "id": 1179,
+               "questionId": 2045,
                "name": "A. Set up hardware VPN tunnels to a VPC and access S3 through a VPC endpoint",
                "isAnswer": false
             },
             {
-               "id": 1184,
-               "questionId": 2046,
+               "id": 1180,
+               "questionId": 2045,
                "name": "B. Set up Client-Side Encryption with an AWS KMS-Managed Customer Master Key",
                "isAnswer": true
             },
             {
-               "id": 1185,
-               "questionId": 2046,
+               "id": 1181,
+               "questionId": 2045,
                "name": "C. Set up Server-Side Encryption with AWS KMS-Managed Keys",
                "isAnswer": false
             },
             {
-               "id": 1186,
-               "questionId": 2046,
+               "id": 1182,
+               "questionId": 2045,
                "name": "D. Transfer the data over an SSL connection",
                "isAnswer": true
             },
             {
-               "id": 1187,
-               "questionId": 2046,
+               "id": 1183,
+               "questionId": 2045,
                "name": "E. Set up Server-Side Encryption with S3-Managed Keys",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2047,
-         "name": "NO.437 An application running on an Amazon Linux EC2 instance needs to manage the AWSinfrastructure.How can the EC2 instance be configured to make AWS API calls securely?",
+         "id": 2046,
+         "name": " NO.437 An application running on an Amazon Linux EC2 instance needs to manage the AWS infrastructure. How can the EC2 instance be configured to make AWS API calls securely?",
          "questionTypeId": 1,
-         "answer": "",
+         "answer": " ",
          "options": [
             {
-               "id": 1188,
-               "questionId": 2047,
+               "id": 1184,
+               "questionId": 2046,
                "name": "A. Sign the AWS CLI command using the signature version 4 process.",
                "isAnswer": false
             },
             {
-               "id": 1189,
-               "questionId": 2047,
+               "id": 1185,
+               "questionId": 2046,
                "name": "B. Run the aws configure AWS CLI command and specify the access key id and secret access key.",
                "isAnswer": false
             },
             {
-               "id": 1190,
-               "questionId": 2047,
+               "id": 1186,
+               "questionId": 2046,
                "name": "C. Specify a role for the EC2 instance with the necessary privileges.",
                "isAnswer": true
             },
             {
-               "id": 1191,
-               "questionId": 2047,
+               "id": 1187,
+               "questionId": 2046,
                "name": "D. Pass the access key id and secret access key as parameters for each AWS CLI command.",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2048,
-         "name": "NO.438 A user wants to achieve High Availability with PostgreSQL DB. Which of the belowmentioned functionalities helps achieve HA?",
+         "id": 2047,
+         "name": " NO.438 A user wants to achieve High Availability with PostgreSQL DB. Which of the below mentioned functionalities helps achieve HA?",
          "questionTypeId": 1,
-         "answer": "Explanation:The Multi AZ feature allows the user to achieve High Availability. For Multi AZ, Amazon RDSautomatically provisions and maintains a synchronous \"standby\" replica in a different AvailabilityZone.http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html",
+         "answer": " Explanation: The Multi AZ feature allows the user to achieve High Availability. For Multi AZ, Amazon RDS automatically provisions and maintains a synchronous \"standby\" replica in a different Availability Zone. http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html ",
          "options": [
             {
-               "id": 1192,
-               "questionId": 2048,
+               "id": 1188,
+               "questionId": 2047,
                "name": "A. Read Replica",
                "isAnswer": false
             },
             {
-               "id": 1193,
-               "questionId": 2048,
+               "id": 1189,
+               "questionId": 2047,
                "name": "B. Multi AZ",
                "isAnswer": true
             },
             {
-               "id": 1194,
-               "questionId": 2048,
+               "id": 1190,
+               "questionId": 2047,
                "name": "C. Multi region",
                "isAnswer": false
             },
             {
-               "id": 1195,
-               "questionId": 2048,
+               "id": 1191,
+               "questionId": 2047,
                "name": "D. PostgreSQL does not support HA",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2049,
-         "name": "NO.439 A Development team is working on a case management solution that allows medical claimsto be processed and reviewed. Users log in to provide information related to their medical andfinancial situations.As part of the application, sensitive documents such as medical records, medical imaging, bankstatements, and receipts are uploaded to Amazon S3. All documents must be securely transmittedand stored. All access to the documents must be recorded for auditing.What is the MOST secure approach?",
+         "id": 2048,
+         "name": " NO.439 A Development team is working on a case management solution that allows medical claims to be processed and reviewed. Users log in to provide information related to their medical and financial situations. As part of the application, sensitive documents such as medical records, medical imaging, bank statements, and receipts are uploaded to Amazon S3. All documents must be securely transmitted and stored. All access to the documents must be recorded for auditing. What is the MOST secure approach?",
          "questionTypeId": 1,
-         "answer": "",
+         "answer": " ",
          "options": [
             {
-               "id": 1196,
-               "questionId": 2049,
-               "name": "A. Use S3 default encryption using Advanced Encryption Standard-256 (AES-256) on the destinationbucket.",
+               "id": 1192,
+               "questionId": 2048,
+               "name": "A. Use S3 default encryption using Advanced Encryption Standard-256 (AES-256) on the destination bucket.",
                "isAnswer": false
             },
             {
-               "id": 1197,
-               "questionId": 2049,
-               "name": "B. Use Amazon Cognito for authorization and authentication to ensure the security of the applicationand documents.",
+               "id": 1193,
+               "questionId": 2048,
+               "name": "B. Use Amazon Cognito for authorization and authentication to ensure the security of the application and documents.",
                "isAnswer": false
             },
             {
-               "id": 1198,
-               "questionId": 2049,
+               "id": 1194,
+               "questionId": 2048,
                "name": "C. Use AWS Lambda to encrypt and decrypt objects as they are placed into the S3 bucket.",
                "isAnswer": false
             },
             {
-               "id": 1199,
-               "questionId": 2049,
+               "id": 1195,
+               "questionId": 2048,
                "name": "D. Use client-side encryption/decryption with Amazon S3 and AWS KMS.",
                "isAnswer": true
             }
          ]
       },
       {
-         "id": 2050,
-         "name": "NO.440 A user has created a new EBS volume from an existing snapshot.The user mounts the volume on the instance to which it is attached.Which of the below mentioned options is a required step before the user can mount the volume?",
+         "id": 2049,
+         "name": " NO.440 A user has created a new EBS volume from an existing snapshot. The user mounts the volume on the instance to which it is attached. Which of the below mentioned options is a required step before the user can mount the volume?",
          "questionTypeId": 1,
-         "answer": "Explanation:When a user is trying to mount a blank EBS volume, it is required that the user first creates a filesystem within the volume. If the volume is created from an existing snapshot then the user needs notto create a file system on the volume as it will wipe out the existing data.http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html",
+         "answer": " Explanation: When a user is trying to mount a blank EBS volume, it is required that the user first creates a file system within the volume. If the volume is created from an existing snapshot then the user needs not to create a file system on the volume as it will wipe out the existing data. http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html ",
          "options": [
             {
-               "id": 1200,
-               "questionId": 2050,
+               "id": 1196,
+               "questionId": 2049,
                "name": "A. Run a cyclic check on the device for data consistency",
                "isAnswer": false
             },
             {
-               "id": 1201,
-               "questionId": 2050,
+               "id": 1197,
+               "questionId": 2049,
                "name": "B. Create the file system of the volume",
                "isAnswer": false
             },
             {
-               "id": 1202,
-               "questionId": 2050,
+               "id": 1198,
+               "questionId": 2049,
                "name": "C. Resize the volume as per the original snapshot size",
                "isAnswer": false
             },
             {
-               "id": 1203,
-               "questionId": 2050,
+               "id": 1199,
+               "questionId": 2049,
                "name": "D. No step is required. The user can directly mount the device",
                "isAnswer": true
             }
          ]
       },
       {
-         "id": 2051,
-         "name": "NO.441 An organization is having an application which can start and stop an EC2 instance as perschedule. The organization needs the MAC address of the instance to be registered with its software.The instance is launched in EC2-CLASSIC.How can the organization update the MAC registration every time an instance is booted?",
+         "id": 2050,
+         "name": " NO.441 An organization is having an application which can start and stop an EC2 instance as per schedule. The organization needs the MAC address of the instance to be registered with its software. The instance is launched in EC2-CLASSIC. How can the organization update the MAC registration every time an instance is booted?",
          "questionTypeId": 1,
-         "answer": "Explanation:AWS provides an on demand, scalable infrastructure. AWS EC2 allows the user to launch On- Demandinstances. AWS does not provide a fixed MAC address to the instances launched in EC2-CLASSIC. Ifthe instance is launched as a part of EC2-VPC, it can have an ENI which can have a fixed MAC.However, with EC2-CLASSIC, every time the instance is started or stopped it will have a new MACaddress. To get this MAC, the organization can run a script on boot which can fetch the instancemetadata and get the MAC address from that instance metadata.Once the MAC is received, the organization can register that MAC with the software.http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AESDG-chapter-instancedata.html",
+         "answer": " Explanation: AWS provides an on demand, scalable infrastructure. AWS EC2 allows the user to launch On- Demand instances. AWS does not provide a fixed MAC address to the instances launched in EC2-CLASSIC. If the instance is launched as a part of EC2-VPC, it can have an ENI which can have a fixed MAC. However, with EC2-CLASSIC, every time the instance is started or stopped it will have a new MAC     address. To get this MAC, the organization can run a script on boot which can fetch the instance metadata and get the MAC address from that instance metadata. Once the MAC is received, the organization can register that MAC with the software. http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AESDG-chapter-instancedata.html ",
          "options": [
             {
-               "id": 1204,
-               "questionId": 2051,
-               "name": "A. The instance MAC address never changes.Thus, it is not required to register the MAC address every time.",
+               "id": 1200,
+               "questionId": 2050,
+               "name": "A. The instance MAC address never changes. Thus, it is not required to register the MAC address every time.",
                "isAnswer": false
             },
             {
-               "id": 1205,
-               "questionId": 2051,
-               "name": "B. The organization should write a boot strapping script which will get the MAC address from theinstance metadata and use that script to register with the application.",
+               "id": 1201,
+               "questionId": 2050,
+               "name": "B. The organization should write a boot strapping script which will get the MAC address from the instance metadata and use that script to register with the application.",
                "isAnswer": true
             },
             {
-               "id": 1206,
-               "questionId": 2051,
-               "name": "C. AWS never provides a MAC address to an instance; instead the instance ID is used for identifyingthe instance for any software registration.",
+               "id": 1202,
+               "questionId": 2050,
+               "name": "C. AWS never provides a MAC address to an instance; instead the instance ID is used for identifying the instance for any software registration.",
                "isAnswer": false
             },
             {
-               "id": 1207,
-               "questionId": 2051,
-               "name": "D. The organization should provide a MAC address as a part of the user data. Thus, whenever theinstance is booted the script assigns the fixed MAC address to that instance.",
+               "id": 1203,
+               "questionId": 2050,
+               "name": "D. The organization should provide a MAC address as a part of the user data. Thus, whenever the instance is booted the script assigns the fixed MAC address to that instance.",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2052,
-         "name": "NO.442 A user has deployed an application on his private cloud. The user is using his ownmonitoring tool. He wants to configure that whenever there is an error, the monitoring tool shouldnotify him via SMS. Which of the below mentioned AWS services will help in this scenario?",
+         "id": 2051,
+         "name": " NO.442 A user has deployed an application on his private cloud. The user is using his own monitoring tool. He wants to configure that whenever there is an error, the monitoring tool should notify him via SMS. Which of the below mentioned AWS services will help in this scenario?",
          "questionTypeId": 1,
-         "answer": "",
+         "answer": " ",
          "options": [
             {
-               "id": 1208,
-               "questionId": 2052,
+               "id": 1204,
+               "questionId": 2051,
                "name": "A. None because the user infrastructure is in the private cloud/",
                "isAnswer": false
             },
             {
-               "id": 1209,
-               "questionId": 2052,
+               "id": 1205,
+               "questionId": 2051,
                "name": "B. AWS SNS",
                "isAnswer": true
             },
             {
-               "id": 1210,
-               "questionId": 2052,
+               "id": 1206,
+               "questionId": 2051,
                "name": "C. AWS SES",
                "isAnswer": false
             },
             {
-               "id": 1211,
-               "questionId": 2052,
+               "id": 1207,
+               "questionId": 2051,
                "name": "D. AWS SMS",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2053,
-         "name": "NO.443 A Developer is creating a template that uses AWS CloudFormation to deploy an application.This application is serverless and uses Amazon API Gateway, Amazon DynamoDB, and AWS Lambda.Which tool should the Developer use to define simplified syntax for expressing serverless resources?",
+         "id": 2052,
+         "name": " NO.443 A Developer is creating a template that uses AWS CloudFormation to deploy an application. This application is serverless and uses Amazon API Gateway, Amazon DynamoDB, and AWS Lambda. Which tool should the Developer use to define simplified syntax for expressing serverless resources?",
          "questionTypeId": 1,
-         "answer": "",
+         "answer": " ",
          "options": [
             {
-               "id": 1212,
-               "questionId": 2053,
+               "id": 1208,
+               "questionId": 2052,
                "name": "A. CloudFormation serverless intrinsic functions",
                "isAnswer": false
             },
             {
-               "id": 1213,
-               "questionId": 2053,
+               "id": 1209,
+               "questionId": 2052,
                "name": "B. AWS serverless express",
                "isAnswer": false
             },
             {
-               "id": 1214,
-               "questionId": 2053,
+               "id": 1210,
+               "questionId": 2052,
                "name": "C. An AWS serverless application model",
                "isAnswer": true
             },
             {
-               "id": 1215,
-               "questionId": 2053,
+               "id": 1211,
+               "questionId": 2052,
                "name": "D. A CloudFormation serverless plugin",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2054,
-         "name": "NO.444 A company needs to ingest terabytes of data each hour from thousands of sources that aredelivered almost continually throughout the day. The volume of messages generated varies over thecourse of the day. Messages must be delivered in real time for fraud detection and live operationaldashboards.Which approach will meet these requirements?",
+         "id": 2053,
+         "name": " NO.444 A company needs to ingest terabytes of data each hour from thousands of sources that are delivered almost continually throughout the day. The volume of messages generated varies over the course of the day. Messages must be delivered in real time for fraud detection and live operational dashboards. Which approach will meet these requirements?",
          "questionTypeId": 1,
-         "answer": "",
+         "answer": " ",
          "options": [
             {
-               "id": 1216,
-               "questionId": 2054,
-               "name": "A. Send the messages to an Amazon SQS queue, then process the messages by using a fleet ofAmazon EC2 instances",
+               "id": 1212,
+               "questionId": 2053,
+               "name": "A. Send the messages to an Amazon SQS queue, then process the messages by using a fleet of Amazon EC2 instances",
                "isAnswer": false
             },
             {
-               "id": 1217,
-               "questionId": 2054,
-               "name": "B. Use the Amazon S3 API to write messages to an S3 bucket, then process the messages by usingAmazon Redshift",
+               "id": 1213,
+               "questionId": 2053,
+               "name": "B. Use the Amazon S3 API to write messages to an S3 bucket, then process the messages by using Amazon Redshift",
                "isAnswer": false
             },
             {
-               "id": 1218,
-               "questionId": 2054,
+               "id": 1214,
+               "questionId": 2053,
                "name": "C. Use AWS Data Pipeline to automate the movement and transformation of data",
                "isAnswer": false
             },
             {
-               "id": 1219,
-               "questionId": 2054,
+               "id": 1215,
+               "questionId": 2053,
                "name": "D. Use Amazon Kinesis Data Streams with Kinesis Client Library to ingest and deliver messages",
                "isAnswer": true
             }
          ]
       },
       {
-         "id": 2055,
-         "name": "NO.445 A company wants to implement authentication for its new REST service using Amazon APIGateway. To authenticate the calls, each request must include HTTP headers with a client ID and userID. These credentials must be compared to authentication data in an Amazon DynamoDB table.What MUST the company do to implement this authentication in API Gateway?",
+         "id": 2054,
+         "name": " NO.445 A company wants to implement authentication for its new REST service using Amazon API Gateway. To authenticate the calls, each request must include HTTP headers with a client ID and user ID. These credentials must be compared to authentication data in an Amazon DynamoDB table. What MUST the company do to implement this authentication in API Gateway?",
          "questionTypeId": 1,
-         "answer": "",
+         "answer": " ",
          "options": [
             {
-               "id": 1220,
-               "questionId": 2055,
+               "id": 1216,
+               "questionId": 2054,
                "name": "A. Implement an AWS Lambda authorizer that references the DynamoDB authentication table",
                "isAnswer": false
             },
             {
-               "id": 1221,
-               "questionId": 2055,
-               "name": "B. Create a model that requires the credentials, then grant API Gateway access to the authenticationtable",
+               "id": 1217,
+               "questionId": 2054,
+               "name": "B. Create a model that requires the credentials, then grant API Gateway access to the authentication table",
                "isAnswer": false
             },
             {
-               "id": 1222,
-               "questionId": 2055,
-               "name": "C. Modify the integration requests to require the credentials, then grant API Gateway access to theauthentication table",
+               "id": 1218,
+               "questionId": 2054,
+               "name": "C. Modify the integration requests to require the credentials, then grant API Gateway access to the    authentication table",
                "isAnswer": false
             },
             {
-               "id": 1223,
-               "questionId": 2055,
+               "id": 1219,
+               "questionId": 2054,
                "name": "D. Implement an Amazon Cognito authorizer that references the DynamoDB authentication table",
                "isAnswer": true
             }
          ]
       },
       {
-         "id": 2056,
-         "name": "NO.446 Pass4Test has three AWS accounts. They have created separate IAM users within eachaccount.Pass4Test wants a single IAM console URL such ashttps://pass4test.signin.aws.amazon.com/console/ for all account users. How can this be achieved?",
+         "id": 2055,
+         "name": " NO.446 Pass4Test has three AWS accounts. They have created separate IAM users within each account. Pass4Test wants a single IAM console URL such as https://pass4test.signin.aws.amazon.com/console/ for all account users. How can this be achieved?",
          "questionTypeId": 1,
-         "answer": "Explanation:If a user wants the URL of the AWS IAM sign-in page to have a company name instead of the AWSaccount ID, he can create an alias for his AWS account ID. The alias should be unique.http://docs.aws.amazon.com/IAM/latest/UserGuide/AccountAlias.html",
+         "answer": " Explanation: If a user wants the URL of the AWS IAM sign-in page to have a company name instead of the AWS account ID, he can create an alias for his AWS account ID. The alias should be unique. http://docs.aws.amazon.com/IAM/latest/UserGuide/AccountAlias.html ",
          "options": [
             {
-               "id": 1224,
-               "questionId": 2056,
+               "id": 1220,
+               "questionId": 2055,
                "name": "A. Merge all the accounts with consolidated billing",
                "isAnswer": false
             },
             {
-               "id": 1225,
-               "questionId": 2056,
+               "id": 1221,
+               "questionId": 2055,
                "name": "B. Create the same account alias with each account ID",
                "isAnswer": false
             },
             {
-               "id": 1226,
-               "questionId": 2056,
+               "id": 1222,
+               "questionId": 2055,
                "name": "C. It is not possible to have the same IAM account login URL for separate AWS accounts",
                "isAnswer": true
             },
             {
-               "id": 1227,
-               "questionId": 2056,
-               "name": "D. Create the S3 bucket with an alias name and use the redirect rule to forward requests to variousaccounts",
+               "id": 1223,
+               "questionId": 2055,
+               "name": "D. Create the S3 bucket with an alias name and use the redirect rule to forward requests to various accounts",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2057,
-         "name": "NO.447 Doug has created a VPC with CIDR 10.201.0.0/16 in his AWS account. In this VPC he hascreated a public subnet with CIDR block 10.201.31.0/24. While launching a new EC2 from theconsole, he is not able to assign the private IP address 10.201.31.6 to this instance. Which is the mostlikely reason for this issue?",
+         "id": 2056,
+         "name": " NO.447 Doug has created a VPC with CIDR 10.201.0.0/16 in his AWS account. In this VPC he has created a public subnet with CIDR block 10.201.31.0/24. While launching a new EC2 from the console, he is not able to assign the private IP address 10.201.31.6 to this instance. Which is the most likely reason for this issue?",
          "questionTypeId": 1,
-         "answer": "Explanation:In Amazon VPC, you can assign any Private IP address to your instance as long as it is:Part of the associated subnet's IP address rangeNot reserved by Amazon for IP networking purposesNot currently assigned to another interfacehttp://aws.amazon.com/vpc/faqs/",
+         "answer": " Explanation: In Amazon VPC, you can assign any Private IP address to your instance as long as it is: Part of the associated subnet's IP address range Not reserved by Amazon for IP networking purposes Not currently assigned to another interface http://aws.amazon.com/vpc/faqs/ ",
          "options": [
             {
-               "id": 1228,
-               "questionId": 2057,
+               "id": 1224,
+               "questionId": 2056,
                "name": "A. Private IP address 10.201.31.6 is not part of the associated subnet's IP address range.",
                "isAnswer": false
             },
             {
-               "id": 1229,
-               "questionId": 2057,
-               "name": "B. Private IP address 10.201.31.6 is blocked via ACLs in Amazon infrastructure as a part of platformsecurity.",
+               "id": 1225,
+               "questionId": 2056,
+               "name": "B. Private IP address 10.201.31.6 is blocked via ACLs in Amazon infrastructure as a part of platform security.",
                "isAnswer": false
             },
             {
-               "id": 1230,
-               "questionId": 2057,
+               "id": 1226,
+               "questionId": 2056,
                "name": "C. Private address IP 10.201.31.6 is currently assigned to another interface.",
                "isAnswer": true
             },
             {
-               "id": 1231,
-               "questionId": 2057,
+               "id": 1227,
+               "questionId": 2056,
                "name": "D. Private IP address 10.201.31.6 is reserved by Amazon for IP networking purposes.",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2058,
-         "name": "NO.448 Which of the below mentioned options is not a best practice to securely manage the AWSaccess credentials?",
+         "id": 2057,
+         "name": " NO.448 Which of the below mentioned options is not a best practice to securely manage the AWS access credentials?",
          "questionTypeId": 1,
-         "answer": "Explanation:It is a recommended approach to avoid using the access and secret access keys of the root account.Thus, do not download or delete it. Instead make the IAM user as powerful as the root account anduse its credentials. The user cannot generate their own access and secret access keys as they arealways generated by AWS.http://docs.aws.amazon.com/IAM/latest/UserGuide/IAMBestPractices.html",
+         "answer": " Explanation:     It is a recommended approach to avoid using the access and secret access keys of the root account. Thus, do not download or delete it. Instead make the IAM user as powerful as the root account and use its credentials. The user cannot generate their own access and secret access keys as they are always generated by AWS. http://docs.aws.amazon.com/IAM/latest/UserGuide/IAMBestPractices.html ",
          "options": [
             {
-               "id": 1232,
-               "questionId": 2058,
+               "id": 1228,
+               "questionId": 2057,
                "name": "A. Enable MFA for privileged users",
                "isAnswer": false
             },
             {
-               "id": 1233,
-               "questionId": 2058,
+               "id": 1229,
+               "questionId": 2057,
                "name": "B. Create individual IAM users",
                "isAnswer": false
             },
             {
-               "id": 1234,
-               "questionId": 2058,
+               "id": 1230,
+               "questionId": 2057,
                "name": "C. Keep rotating your secure access credentials at regular intervals",
                "isAnswer": false
             },
             {
-               "id": 1235,
-               "questionId": 2058,
+               "id": 1231,
+               "questionId": 2057,
                "name": "D. Create strong access key and secret access key and attach to the root account",
                "isAnswer": true
             }
          ]
       },
       {
-         "id": 2059,
-         "name": "NO.449 Which of the following are correct statements with policy evaluation logic in AWS Identityand Access Management? Choose 2 answers",
+         "id": 2058,
+         "name": " NO.449 Which of the following are correct statements with policy evaluation logic in AWS Identity and Access Management? Choose 2 answers",
          "questionTypeId": 2,
-         "answer": "",
+         "answer": " ",
          "options": [
             {
-               "id": 1236,
-               "questionId": 2059,
+               "id": 1232,
+               "questionId": 2058,
                "name": "A. By default, all requests are denied",
                "isAnswer": true
             },
             {
-               "id": 1237,
-               "questionId": 2059,
+               "id": 1233,
+               "questionId": 2058,
                "name": "B. An explicit allow overrides an explicit deny",
                "isAnswer": false
             },
             {
-               "id": 1238,
-               "questionId": 2059,
+               "id": 1234,
+               "questionId": 2058,
                "name": "C. An explicit allow overrides default deny.",
                "isAnswer": true
             },
             {
-               "id": 1239,
-               "questionId": 2059,
+               "id": 1235,
+               "questionId": 2058,
                "name": "D. An explicit deny does not override an explicit allow",
                "isAnswer": false
             },
             {
-               "id": 1240,
-               "questionId": 2059,
+               "id": 1236,
+               "questionId": 2058,
                "name": "E. By default, all request are allowed",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2060,
-         "name": "NO.450 AWS Elastic Load Balancer supports SSL termination.",
+         "id": 2059,
+         "name": " NO.450 AWS Elastic Load Balancer supports SSL termination.",
          "questionTypeId": 1,
-         "answer": "Explanation:You can configure your load balancer in ELB (Elastic Load Balancing) to use a SSL certificate in order toimprove your system security.The load balancer uses the certificate to terminate and then decryptrequests before sending them to the back-end instances. Elastic Load Balancing uses AWS Identityand Access Management (IAM) to upload your certificate to your load balancer.",
+         "answer": " Explanation: You can configure your load balancer in ELB (Elastic Load Balancing) to use a SSL certificate in order to improve your system security.The load balancer uses the certificate to terminate and then decrypt requests before sending them to the back-end instances. Elastic Load Balancing uses AWS Identity and Access Management (IAM) to upload your certificate to your load balancer. ",
          "options": [
             {
-               "id": 1241,
-               "questionId": 2060,
+               "id": 1237,
+               "questionId": 2059,
                "name": "A. True. For specific availability zones only.",
                "isAnswer": false
             },
             {
-               "id": 1242,
-               "questionId": 2060,
+               "id": 1238,
+               "questionId": 2059,
                "name": "B. False",
                "isAnswer": false
             },
             {
-               "id": 1243,
-               "questionId": 2060,
+               "id": 1239,
+               "questionId": 2059,
                "name": "C. True. For specific regions only",
                "isAnswer": false
             },
             {
-               "id": 1244,
-               "questionId": 2060,
+               "id": 1240,
+               "questionId": 2059,
                "name": "D. True. For all regions",
                "isAnswer": true
             }
          ]
       },
       {
-         "id": 2061,
-         "name": "NO.451 A Developer has created a software package to be deployed on multiple EC2 instances usingIAM roles. What actions could be performed to verify IAM access to get records from Amazon KinesisStreams? (Select TWO.)",
+         "id": 2060,
+         "name": " NO.451 A Developer has created a software package to be deployed on multiple EC2 instances using IAM roles. What actions could be performed to verify IAM access to get records from Amazon Kinesis Streams? (Select TWO.)",
          "questionTypeId": 2,
-         "answer": "",
+         "answer": " ",
          "options": [
             {
-               "id": 1245,
-               "questionId": 2061,
+               "id": 1241,
+               "questionId": 2060,
                "name": "A. Use the AWS CLI to retrieve the IAM group.",
                "isAnswer": false
             },
             {
-               "id": 1246,
-               "questionId": 2061,
+               "id": 1242,
+               "questionId": 2060,
                "name": "B. Query Amazon EC2 metadata for in-line IAM policies.",
                "isAnswer": true
             },
             {
-               "id": 1247,
-               "questionId": 2061,
+               "id": 1243,
+               "questionId": 2060,
                "name": "C. Request a token from AWS STS, and perform a describe action.",
                "isAnswer": false
             },
             {
-               "id": 1248,
-               "questionId": 2061,
+               "id": 1244,
+               "questionId": 2060,
                "name": "D. Perform a get action using the ?dry-run argument.",
                "isAnswer": false
             },
             {
-               "id": 1249,
-               "questionId": 2061,
+               "id": 1245,
+               "questionId": 2060,
                "name": "E. Validate the IAM role policy with the IAM policy simulator.",
                "isAnswer": true
             }
          ]
       },
       {
-         "id": 2062,
-         "name": "NO.452 What is the scope of an EBS volume?",
+         "id": 2061,
+         "name": " NO.452 What is the scope of an EBS volume?",
          "questionTypeId": 1,
-         "answer": "Explanation:An Amazon EBS volume is tied to its Availability Zone and can be attached only to instances in thesame Availability Zone.",
+         "answer": " Explanation:    An Amazon EBS volume is tied to its Availability Zone and can be attached only to instances in the same Availability Zone. ",
          "options": [
             {
-               "id": 1250,
-               "questionId": 2062,
+               "id": 1246,
+               "questionId": 2061,
                "name": "A. VPC",
                "isAnswer": false
             },
             {
-               "id": 1251,
-               "questionId": 2062,
+               "id": 1247,
+               "questionId": 2061,
                "name": "B. Region",
                "isAnswer": false
             },
             {
-               "id": 1252,
-               "questionId": 2062,
+               "id": 1248,
+               "questionId": 2061,
                "name": "C. Placement Group",
                "isAnswer": false
             },
             {
-               "id": 1253,
-               "questionId": 2062,
+               "id": 1249,
+               "questionId": 2061,
                "name": "D. Availability Zone",
                "isAnswer": true
             }
          ]
       },
       {
-         "id": 2063,
-         "name": "NO.453 An application uses Amazon Kinesis Data Streams to ingest and process large streams ofdata records in real time. Amazon EC2 instances consume and process the data from the shards ofthe Kinesis data stream by using Amazon Kinesis Client Library (KCL). The application handles thefailure scenarios and does not require standby workers. The application reports that a specific shardis receiving more data than expected. To adapt to the chnages in the rate of data flow, the\"hot\" shard is resharded.Assuming that the initial number of shards in the Kinesis data stream is 4, and after resharding thenumber of shards increased to 6, what is the maximum number of EC2 instances that can bedeployed to process data from all the shards?",
+         "id": 2062,
+         "name": " NO.453 An application uses Amazon Kinesis Data Streams to ingest and process large streams of data records in real time. Amazon EC2 instances consume and process the data from the shards of the Kinesis data stream by using Amazon Kinesis Client Library (KCL). The application handles the failure scenarios and does not require standby workers. The application reports that a specific shard is receiving more data than expected. To adapt to the chnages in the rate of data flow, the \"hot\" shard is resharded. Assuming that the initial number of shards in the Kinesis data stream is 4, and after resharding the number of shards increased to 6, what is the maximum number of EC2 instances that can be deployed to process data from all the shards?",
          "questionTypeId": 1,
-         "answer": "",
+         "answer": " ",
          "options": [
             {
-               "id": 1254,
-               "questionId": 2063,
-               "name": "A. 12B. 6C. 4D. 1",
+               "id": 1250,
+               "questionId": 2062,
+               "name": "A. 12 B. 6 C. 4 D. 1",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2064,
-         "name": "NO.454 A company has an internet-facing application that uses Web Identity Federation to obtain atemporary credential from AWS Security Token Service (AWS STS). The app then uses the token toaccess AWS services.Review the following response:Based on the response displayed what permissions are associated with the call from the application?",
+         "id": 2063,
+         "name": " NO.454 A company has an internet-facing application that uses Web Identity Federation to obtain a temporary credential from AWS Security Token Service (AWS STS). The app then uses the token to access AWS services. Review the following response: Based on the response displayed what permissions are associated with the call from the application?",
          "questionTypeId": 1,
-         "answer": "",
+         "answer": " ",
          "options": [
             {
-               "id": 1255,
-               "questionId": 2064,
+               "id": 1251,
+               "questionId": 2063,
                "name": "A. Permissions associated with the role AROACLKWSDQRAOEXAMPLE:app1",
                "isAnswer": false
             },
             {
-               "id": 1256,
-               "questionId": 2064,
+               "id": 1252,
+               "questionId": 2063,
                "name": "B. Permissions associated with the default role used when the AWS service was built",
                "isAnswer": false
             },
             {
-               "id": 1257,
-               "questionId": 2064,
-               "name": "C. Permission associated with the IAM principal that owns the AccessKeyIDASgeIAIOSFODNN7EXAMPLE",
+               "id": 1253,
+               "questionId": 2063,
+               "name": "C. Permission associated with the IAM principal that owns the AccessKeyID    ASgeIAIOSFODNN7EXAMPLE",
                "isAnswer": true
             },
             {
-               "id": 1258,
-               "questionId": 2064,
+               "id": 1254,
+               "questionId": 2063,
                "name": "D. Permissions associated with the account that owns the AWS service",
                "isAnswer": false
             }
          ]
       },
       {
-         "id": 2065,
-         "name": "NO.455 A user has created a snapshot of an EBS volume. Which of the below mentioned usage casesis not possible with respect to a snapshot?",
+         "id": 2064,
+         "name": " NO.455 A user has created a snapshot of an EBS volume. Which of the below mentioned usage cases is not possible with respect to a snapshot?",
          "questionTypeId": 1,
-         "answer": "Explanation:The EBS snapshots are a point in time backup of the volume. It is helpful to move the volume fromone AZ to another or launch a new instance. The user can increase the size of the volume but cannotdecrease it less than the original snapshot size.http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSSnapshots.html",
+         "answer": " Explanation: The EBS snapshots are a point in time backup of the volume. It is helpful to move the volume from one AZ to another or launch a new instance. The user can increase the size of the volume but cannot decrease it less than the original snapshot size. http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSSnapshots.html ",
+         "options": [
+            {
+               "id": 1255,
+               "questionId": 2064,
+               "name": "A. Mirroring the volume from one AZ to another AZ",
+               "isAnswer": false
+            },
+            {
+               "id": 1256,
+               "questionId": 2064,
+               "name": "B. Launch an instance",
+               "isAnswer": false
+            },
+            {
+               "id": 1257,
+               "questionId": 2064,
+               "name": "C. Decrease the volume size",
+               "isAnswer": true
+            },
+            {
+               "id": 1258,
+               "questionId": 2064,
+               "name": "D. Increase the size of the volume",
+               "isAnswer": false
+            }
+         ]
+      },
+      {
+         "id": 2065,
+         "name": " NO.456 A user is creating an EBS volume. He asks for your advice. Which advice mentioned below should you not give to the user for creating an EBS volume?",
+         "questionTypeId": 1,
+         "answer": " Explanation: When a user creates an EBS volume, the user can attach it to a running instance. The user can attach multiple volumes to the same instance and stripe them together to increase the I/O. The user can take a snapshot from the existing volume but cannot create an AMI from the volume. However, the user can create an AMI from a snapshot. http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSVolumes.html",
          "options": [
             {
                "id": 1259,
                "questionId": 2065,
-               "name": "A. Mirroring the volume from one AZ to another AZ",
+               "name": "A. Take the snapshot of the volume when the instance is stopped",
                "isAnswer": false
             },
             {
                "id": 1260,
                "questionId": 2065,
-               "name": "B. Launch an instance",
+               "name": "B. Stripe multiple volumes attached to the same instance",
                "isAnswer": false
             },
             {
                "id": 1261,
                "questionId": 2065,
-               "name": "C. Decrease the volume size",
+               "name": "C. Create an AMI from the attached volume",
                "isAnswer": true
             },
             {
                "id": 1262,
                "questionId": 2065,
-               "name": "D. Increase the size of the volume",
+               "name": "D. Attach multiple volumes to the same instance",
                "isAnswer": false
             }
          ]
