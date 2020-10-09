@@ -130,7 +130,7 @@ export class RealQuizComponent implements OnInit {
         this.countCorrect = this.countCorrect +1;
       }});
 
-    this.porcent = this.countCorrect*100/this.pager.count;
+    this.porcent = parseFloat((this.countCorrect*100/this.pager.count).toFixed(2));
   }
 
 }
